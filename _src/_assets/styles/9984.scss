@@ -1,0 +1,50 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Inconsolata, monospace;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #333;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 { /* stylelint-disable-line selector-list-comma-newline-after */
+    color: #444;
+}
+
+.text--9984 {
+    font-style: normal;
+    color: #222;
+    font-weight: 700;
+}
+
+a {
+    color: #000;
+}
+
+.row {
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 40rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    font-size: .8rem;
+}
+
+.hero {
+    background: #222;
+    color: #999;
+    text-align: center;
+
+    .text--9984 {
+        color: #999;
+    }
+
+    h1, h2, h3, h4 { /* stylelint-disable-line selector-list-comma-newline-after */
+        color: #eee;
+    }
+}

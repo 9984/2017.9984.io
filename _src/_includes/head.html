@@ -4,9 +4,9 @@
     <!-- Dynamic meta title -->
     <title>
     {% if page.title %}
-        {{ page.title }} >>> {{ site.title }}
+        {{ page.title }} >> {{ site.title }}
     {% else %}
-        {{ site.title }} >>> {{ site.description }}
+        {{ site.title }} >> {{ site.description }}
     {% endif %}
     </title>
 
@@ -28,6 +28,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/9984.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
@@ -53,5 +54,6 @@
     {% if jekyll.environment != 'production' or page.sitemap == false  %}
     <meta name="robots" content="noindex, nofollow">
     {% endif %}
+    <meta name="robots" content="noindex, nofollow">
 
 </head>

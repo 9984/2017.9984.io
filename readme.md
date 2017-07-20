@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.org/9984/2017.9984.svg?branch=master)](https://travis-ci.org/9984/2017.9984)
 [![css bigchaindb](https://img.shields.io/badge/css-bigchaindb-39BA91.svg)](https://github.com/bigchaindb/stylelint-config-bigchaindb)
 
+[Currently happening here](http://2017.9984.io.s3-website.eu-central-1.amazonaws.com)
+
 ## Development
 
 You need to have the following tools installed on your development machine before moving on:
