@@ -1,0 +1,31 @@
+# The Basics
+# --------------------
+title:                  "9984 Summit"
+description:            "Blockchain Futures for Developers, Enterprises & Society"
+url:                    "https://2017.9984.io"
+
+
+# Urls
+# --------------------
+permalink:              /:title/
+
+
+# Content Parsing
+# --------------------
+markdown:               redcarpet
+
+redcarpet:
+    extensions:         ['no_intra_emphasis', 'autolink', 'tables', 'smart', 'hard_wrap', 'fenced_code_blocks', 'strikethrough', 'highlight', 'quote', 'footnotes', 'with_toc_data', 'space_after_headers', 'superscript', 'lax_spacing']
+
+
+# Generator
+# --------------------
+source:                 ./_src
+destination:            ./_dist
+
+
+# Plugins
+# --------------------
+plugins:
+    - jekyll-sitemap
+    - jekyll-redirect-from
