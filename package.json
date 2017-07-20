@@ -5,7 +5,7 @@
     "name": "Matthias Kretschmann",
     "email": "matthias@bigchaindb.com"
   },
-  "description": "The 9984 >> summit 2017 site",
+  "description": "The 9984 >> SUMMIT 2017 site",
   "homepage": "https://9984.io",
   "license": "(c) 2017 BigchainDB - All Rights Reserved",
   "main": "gulpfile.babel.js",

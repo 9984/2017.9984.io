@@ -1,6 +1,6 @@
 # 2017.9984
 
-> The 9984 >> summit 2017 site
+> The 9984 >> SUMMIT 2017 site
 
 [![Build Status](https://travis-ci.org/9984/2017.9984.svg?branch=master)](https://travis-ci.org/9984/2017.9984)
 [![css bigchaindb](https://img.shields.io/badge/css-bigchaindb-39BA91.svg)](https://github.com/bigchaindb/stylelint-config-bigchaindb)
