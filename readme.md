@@ -1,5 +1,7 @@
 # 2017.9984.io
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/9984/2017.9984.io.svg)](https://greenkeeper.io/)
+
 > The 9984 >> SUMMIT 2017 site
 >
 > Blockchain Futures for Developers, Enterprises &amp; Society
