@@ -1,12 +1,12 @@
 {
-  "name": "2017.9984",
+  "name": "2017.9984.io",
   "version": "1.0.0",
   "author": {
     "name": "Matthias Kretschmann",
     "email": "matthias@bigchaindb.com"
   },
   "description": "The 9984 >> SUMMIT 2017 site",
-  "homepage": "https://9984.io",
+  "homepage": "https://2017.9984.io",
   "license": "(c) 2017 BigchainDB - All Rights Reserved",
   "main": "gulpfile.babel.js",
   "scripts": {
@@ -70,6 +70,6 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/9984/2017.9984"
+    "url": "https://github.com/9984/2017.9984.io"
   }
 }
