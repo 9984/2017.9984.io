@@ -6,8 +6,8 @@
 > October 5 - 6, 2017
 > https://2017.9984.io
 
-[![Build Status](https://travis-ci.org/9984/2017.9984.svg?branch=master)](https://travis-ci.org/9984/2017.9984) 
-[![css bigchaindb](https://img.shields.io/badge/css-bigchaindb-39BA91.svg)](https://github.com/bigchaindb/stylelint-config-bigchaindb) 
+[![Build Status](https://travis-ci.org/9984/2017.9984.svg?branch=master)](https://travis-ci.org/9984/2017.9984)
+[![css bigchaindb](https://img.shields.io/badge/css-bigchaindb-39BA91.svg)](https://github.com/bigchaindb/stylelint-config-bigchaindb)
 [![Greenkeeper badge](https://badges.greenkeeper.io/9984/2017.9984.io.svg)](https://greenkeeper.io/)
 
 ---
@@ -16,7 +16,36 @@
 
 ---
 
-## Development
+# Content editing
+
+The following instructions apply to adding / editing speakers & talks.
+
+## Adding / editing speakers & talks
+
+- Each content item is represented as a Markdown file with YAML at the top. The data should look something like this:
+  ```
+  ---
+  property: "value"
+  other_property:
+    - "list"
+    - "of"
+    - "values"
+  ---
+  ```
+
+### Add new content through GitHub
+
+  1. Click into the appropriate directory ([/_src/_speakers](_src/_speakers), [/_src/_talks](_src/_talks)
+  1. Copy the data from an existing `.md` file
+  2. In the parent folder, click `Create new file`
+  3. Paste the data into GitHub and edit
+  4. Edit to your heart’s content!
+     - The filename you choose may determine the content page URL
+     - The `id` property should be the same as the filename
+  5. When finished, fill in a commit description and select `Create a new branch for this commit and start a pull request`.
+  6. Wait to see if the created pull request passes the build. If it does, click merge and your changes will be live
+
+# Development
 
 You need to have the following tools installed on your development machine before moving on:
 
@@ -25,7 +54,7 @@ You need to have the following tools installed on your development machine befor
 - [Ruby](https://www.ruby-lang.org) (for sanity, install with [rvm](https://rvm.io/))
 - [Bundler](http://bundler.io/)
 
-### Install dependencies
+## Install dependencies
 
 Run the following command from the repository's root folder to install all dependencies.
 
@@ -39,7 +68,7 @@ or
 yarn && bundle install
 ```
 
-### Development build
+## Development build
 
 Spin up local dev server and livereloading watch task, reachable under [https://localhost:1337](https://localhost:1337):
 
@@ -47,7 +76,7 @@ Spin up local dev server and livereloading watch task, reachable under [https://
 gulp
 ```
 
-## Continuous deployment: always be shipping
+# Continuous deployment: always be shipping
 
 ![shipping](https://cloud.githubusercontent.com/assets/90316/26559768/e21e9724-44b1-11e7-90cf-6ef6ebb06d09.gif)
 
@@ -59,11 +88,11 @@ Build & deployment happens under the following conditions on Travis:
 - **live deployment**: every push to the master branch initiates a live deployment
 - **beta deployment**: every new pull request and every subsequent push to it initiates a beta deployment
 
-## Manual deployment
+# Manual deployment
 
 For emergency live deployments or beta & gamma deployments, the manual method can be used. The site is hosted in an S3 bucket and gets deployed via a gulp task.
 
-### Prerequisite: authentication
+## Prerequisite: authentication
 
 To deploy the site, you must authenticate yourself against the AWS API with your AWS credentials. Get your AWS access key and secret and add them to `~/.aws/credentials`:
 
@@ -83,7 +112,7 @@ AWS_PROFILE=9984 gulp deploy --live
 
 In case that you get authentication errors or need an alternative way to authenticate with AWS, check out the [AWS documentation](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html).
 
-### Staging build & beta deployment
+## Staging build & beta deployment
 
 The staging build is a full production build but prevents search engine indexing & Google Analytics tracking.
 
@@ -99,7 +128,7 @@ gulp build --staging
 gulp deploy --beta
 ```
 
-### Production build & live deployment
+## Production build & live deployment
 
 ```bash
 # make sure your local npm packages & gems are up to date
@@ -112,9 +141,9 @@ gulp build --production
 gulp deploy --live
 ```
 
-## Coding conventions
+# Coding conventions
 
-### (S)CSS
+## (S)CSS
 
 Follows [stylelint-config-bigchaindb](https://github.com/bigchaindb/stylelint-config-bigchaindb) which itself extends [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
 
@@ -124,6 +153,6 @@ Lint with [stylelint](https://stylelint.io) in your editor or run:
 npm test
 ```
 
-## Authors
+# Authors
 
 - Matthias Kretschmann ([@kremalicious](https://github.com/kremalicious)) - [BigchainDB](https://www.bigchaindb.com)

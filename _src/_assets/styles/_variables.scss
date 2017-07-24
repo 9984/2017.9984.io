@@ -1,0 +1,17 @@
+
+$font-family-base:          Inconsolata, monospace !default;
+$font-size-root:            18px !default;
+$font-size-root-lg:         20px !default;
+$line-height:               1.4 !default;
+$spacer:                    1.5rem !default;
+
+//
+// Responsive breakpoints
+//
+$screen-sm-min:             40em !default;
+$screen-md-min:             58em !default;
+$screen-lg-min:             85em !default;
+
+$screen-sm:                 'min-width: #{$screen-sm-min}';
+$screen-md:                 'min-width: #{$screen-md-min}';
+$screen-lg:                 'min-width: #{$screen-lg-min}';

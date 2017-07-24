@@ -1,13 +1,30 @@
+@import 'variables';
+
 html {
-    font-size: 18px;
+    font-size: $font-size-root;
+    -webkit-tap-highlight-color: transparent;
+
+    @media ($screen-lg) {
+        font-size: $font-size-root-lg;
+    }
 }
 
 body {
-    font-family: Inconsolata, monospace;
+    font-family: $font-family-base;
     font-size: 1rem;
-    line-height: 1.4;
+    line-height: $line-height;
     color: #333;
     margin: 0;
+
+    // handling long text, like URLs
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-rendering: optimizeLegibility;
+    // Controversial! But prevents text flickering in
+    // Safari/Firefox when animations are running
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5 { /* stylelint-disable-line selector-list-comma-newline-after */
@@ -26,12 +43,12 @@ a {
 
 .row {
     margin: 0 auto;
-    padding: 2rem;
+    padding: $spacer;
     max-width: 40rem;
 }
 
 .footer {
-    margin-top: 2rem;
+    margin-top: $spacer;
     font-size: .8rem;
 }
 
@@ -48,3 +65,5 @@ a {
         color: #eee;
     }
 }
+
+@import 'speaker';

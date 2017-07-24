@@ -1,0 +1,58 @@
+---
+layout: base
+---
+
+{% assign speaker = page %}
+
+<header class="header header--speaker">
+    <div class="row">
+
+        <div class="speaker speaker--{{ speaker.id }} ">
+            <div class="speaker__text">
+                <h1 class="speaker__name">
+                    {{ speaker.name }}
+                </h1>
+                <div class="speaker__company">{{ speaker.company }}</div>
+            </div>
+
+            <div class="speaker__image">
+                <img src="/assets/img/speakers/{{ speaker.id }}.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<main class="content" role="main">
+    <div class="row">
+
+        <article class="speaker">
+            <div class="speaker__info">
+                {% if speaker.intro %}
+                <div class="speaker__bio">
+                    <p class="intro">{{ speaker.intro | newline_to_br }}</p>
+                </div>
+                {% endif %}
+
+                <div class="speaker__content">
+                    {{ speaker.content }}
+                </div>
+
+                <ul class="speaker__link-list">
+                    {% for link in speaker.links %}
+                    <li class="speaker__link">
+                        <a href="{{ link.url }}">{{ link.text }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </article>
+
+    </div>
+</main>
+
+<aside>
+    <div class="row">
+        {% include speaker-list.html %}
+    </div>
+</aside>

@@ -1,30 +1,45 @@
 # The Basics
 # --------------------
-title:                  "9984 Summit"
-description:            "Blockchain Futures for Developers, Enterprises & Society"
-url:                    "https://2017.9984.io"
+title:          "9984 Summit"
+description:    "Blockchain Futures for Developers, Enterprises & Society"
+url:            "https://2017.9984.io"
 
 github:
-    org: "9984"
-    repo: "2017.9984.io"
+    org:        "9984"
+    repo:       "2017.9984.io"
+
+
+# Collections
+# --------------------
+collections:
+    speakers:
+        output: true
+
+defaults:
+    - scope:
+        path: ""
+        type: speakers
+      values:
+        layout: speaker
+
 
 # Urls
 # --------------------
-permalink:              /:title/
+permalink:      /:title/
 
 
 # Content Parsing
 # --------------------
-markdown:               redcarpet
+markdown:       redcarpet
 
 redcarpet:
-    extensions:         ['no_intra_emphasis', 'autolink', 'tables', 'smart', 'hard_wrap', 'fenced_code_blocks', 'strikethrough', 'highlight', 'quote', 'footnotes', 'with_toc_data', 'space_after_headers', 'superscript', 'lax_spacing']
+    extensions: ['no_intra_emphasis', 'autolink', 'tables', 'smart', 'hard_wrap', 'fenced_code_blocks', 'strikethrough', 'highlight', 'quote', 'footnotes', 'with_toc_data', 'space_after_headers', 'superscript', 'lax_spacing']
 
 
 # Generator
 # --------------------
-source:                 ./_src
-destination:            ./_dist
+source:         ./_src
+destination:    ./_dist
 
 
 # Plugins
@@ -32,3 +47,6 @@ destination:            ./_dist
 plugins:
     - jekyll-sitemap
     - jekyll-redirect-from
+
+exclude:
+    - "*README.md"
