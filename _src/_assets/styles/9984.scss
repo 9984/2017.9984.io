@@ -53,9 +53,16 @@ a {
 }
 
 .hero {
-    background: #222;
+    background: #222 url('../img/hero.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 400px;
+    max-height: 700px;
     color: #999;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 
     .text--9984 {
         color: #999;
