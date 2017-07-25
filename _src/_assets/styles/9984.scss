@@ -14,6 +14,7 @@ body {
     font-size: 1rem;
     line-height: $line-height;
     color: #333;
+    background: #e6e6e6;
     margin: 0;
 
     // handling long text, like URLs
@@ -27,14 +28,34 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5 { /* stylelint-disable-line selector-list-comma-newline-after */
-    color: #444;
+h1, h2, h3, h4, h5 { // stylelint-disable-line selector-list-comma-newline-after
+    color: $brand-03;
+    font-family: silkscreennormal, monotype;
 }
 
 .text--9984 {
     font-style: normal;
-    color: #222;
-    font-weight: 700;
+    font-family: silkscreennormal, monotype;
+}
+
+.divider--9984 {
+    font-style: normal;
+    font-family: silkscreennormal, monotype;
+    color: $brand-01;
+}
+
+@font-face {
+    font-family: silkscreennormal;
+    // stylelint-disable declaration-colon-newline-after
+    src: url('/assets/fonts/slkscr-webfont.woff2') format('woff2'),
+        url('/assets/fonts/slkscr-webfont.woff') format('woff');
+    // stylelint-enable
+    font-weight: 400;
+    font-style: normal;
+}
+
+.silkscreen {
+    font-family: silkscreennormal, monotype;
 }
 
 a {
@@ -52,25 +73,24 @@ a {
     font-size: .8rem;
 }
 
-.hero {
-    background: #222 url('../img/hero.png') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    min-height: 400px;
-    max-height: 700px;
-    color: #999;
+.button {
+    display: inline-block;
+    padding: $spacer / 2 $spacer;
     text-align: center;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-
-    .text--9984 {
-        color: #999;
-    }
-
-    h1, h2, h3, h4 { /* stylelint-disable-line selector-list-comma-newline-after */
-        color: #eee;
-    }
+    background: $brand-01;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10rem;
+    font-weight: 700;
 }
 
+.big-quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    max-width: 60%;
+    margin: $spacer auto 0 auto;
+}
+
+@import 'hero';
 @import 'speaker';

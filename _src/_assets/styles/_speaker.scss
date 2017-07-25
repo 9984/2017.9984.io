@@ -9,7 +9,7 @@
 
     .speaker {
         text-decoration: none;
-        background: #444;
+        background: $brand-03;
         color: #fff;
         display: block;
         padding: 1rem;
@@ -23,7 +23,7 @@
         }
 
         &:hover {
-            background: #000;
+            background: $brand-01;
         }
     }
 

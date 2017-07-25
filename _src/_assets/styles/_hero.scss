@@ -1,0 +1,130 @@
+.hero {
+    background: #202a30;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+
+    @media ($screen-sm) and (min-height: 600px) {
+        height: 100vh;
+        min-height: 400px;
+        max-height: 800px;
+    }
+
+    .row {
+        z-index: 1;
+    }
+
+    .hero__name,
+    .hero__date,
+    .hero__intro {
+        color: #e6e6e6;
+    }
+
+    .text--9984 {
+        color: #fff;
+    }
+}
+
+.hero__title {
+    margin-bottom: $spacer;
+
+    .location {
+        &:before {
+            content: ' | ';
+            color: $brand-02;
+        }
+    }
+}
+
+.hero__name {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero__date {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.hero__tagline {
+    background: rgba(#fff, .8);
+    padding: ($spacer / 1.5) ($spacer * 1.5);
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    position: relative;
+    margin-left: -($spacer * 1.5);
+    margin-right: -($spacer * 1.5);
+    font-size: 1.5rem;
+    color: $brand-03;
+    margin-bottom: $spacer * 2;
+
+    &:after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: block;
+        background: rgba(#fff, .8);
+        right: -100%;
+        top: 0;
+    }
+}
+
+.hero__intro {
+    font-size: 1.2rem;
+    margin-bottom: $spacer * 1.5;
+    font-weight: 700;
+}
+
+.stage {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    text-align: center;
+
+    &,
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    &:after {
+        background: radial-gradient(ellipse at center, rgba(#fff, .3) 0%, rgba(#fff, 0) 80%);
+        mix-blend-mode: multiply;
+    }
+}
+
+.nine-nine-eight-four {
+    rect {
+        animation: blockAnimate 20s;
+
+        @for $i from 1 through 40 { // stylelint-disable-line at-rule-no-unknown
+            &:nth-child(#{$i}) {
+                animation-delay: - + random(40) + s;
+            }
+        }
+    }
+}
+
+@keyframes blockAnimate {
+    0% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        opacity: .4;
+        transform: translate3d(40px, 0, 0);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

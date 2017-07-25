@@ -215,6 +215,13 @@ export const images = () => src(SRC + '_assets/images/**/*')
 
 
 //
+// Copy Fonts
+//
+export const fonts = () => src(SRC + '_assets/fonts/**/*')
+    .pipe(dest(DIST + 'assets/fonts/'))
+
+
+//
 // Revision static assets
 //
 export const rev = (done) => {
@@ -310,7 +317,7 @@ const deployBanner = (done) => {
 // `gulp build` is the development build
 // `gulp build --production` is the production build
 //
-export const build = series(buildBanner, clean, jekyll, parallel(html, css, js, images, svg), rev, revReplace, criticalCss)
+export const build = series(buildBanner, clean, jekyll, parallel(html, css, js, images, svg, fonts), rev, revReplace, criticalCss)
 
 //
 // Build site, run server, and watch for file changes
