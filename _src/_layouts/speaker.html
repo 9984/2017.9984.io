@@ -4,26 +4,27 @@ layout: base
 
 {% assign speaker = page %}
 
+{% include menu.html %}
+
 <header class="header header--speaker">
     <div class="row">
 
         <div class="speaker speaker--{{ speaker.id }} ">
+            <div class="speaker__image">
+                <img src="/assets/img{{ speaker.id }}.jpg" alt="">
+            </div>
             <div class="speaker__text">
                 <h1 class="speaker__name">
                     {{ speaker.name }}
                 </h1>
                 <div class="speaker__company">{{ speaker.company }}</div>
             </div>
-
-            <div class="speaker__image">
-                <img src="/assets/img/speakers/{{ speaker.id }}.jpg" alt="">
-            </div>
         </div>
 
     </div>
 </header>
 
-<main class="content" role="main">
+<main class="content content--speaker" role="main">
     <div class="row">
 
         <article class="speaker">
@@ -38,7 +39,7 @@ layout: base
                     {{ speaker.content }}
                 </div>
 
-                <ul class="speaker__link-list">
+                <ul class="speaker__links">
                     {% for link in speaker.links %}
                     <li class="speaker__link">
                         <a href="{{ link.url }}">{{ link.text }}</a>
@@ -51,8 +52,8 @@ layout: base
     </div>
 </main>
 
-<aside>
+<aside class="section">
     <div class="row">
-        {% include speaker-list.html %}
+        {% include speakers-list.html %}
     </div>
 </aside>

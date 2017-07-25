@@ -4,24 +4,28 @@ layout: base
 front_page: true
 ---
 
-<header class="hero">
+<header class="hero section">
     <div class="row">
         <hgroup class="hero__title">
             <h1 class="hero__name">9984 <span class="divider--9984">>></span> SUMMIT</h1>
             <h2 class="hero__date">October 5 - 6, 2017 <span class="location">Berlin, Germany</span></h2>
         </hgroup>
         <h2 class="hero__tagline">Blockchain Futures for Developers, Enterprises &amp; Society</h2>
-        <p class="hero__intro">This October in Berlin, IPDB will link 200 leading blockchain developers and enterprises at its inaugural <em class="text--9984">9984 >> SUMMIT</em> to exchange insights, tackle challenges, and build a decentralized tomorrow, together with BigchainDB.</p>
-        <a class="button" href="#">Get your ticket</a>
+        <p class="hero__intro">IPDB will link 200 leading blockchain developers and enterprises at its inaugural <em class="text--9984">9984 >> SUMMIT</em> to exchange insights, tackle challenges, and build a decentralized tomorrow, together with BigchainDB.</p>
+
+        <div class="button-unit">
+            <a class="button" href="#tickets">Get your ticket <span class="button__sub">29€ + VAT</span></a>
+        </div>
+
     </div>
     <div class="stage" id="drawing"></div>
 </header>
 
-<section class="intro">
+<section class="intro section">
     <div class="row">
         <p>In a world changing with technology, blockchain brings future possibilities into present times… And with building catalysts comes responsibility.</p>
 
-        <p>As a port, <em class="text--9984">9984</em> connects <a href="#">enterprises and developers</a> to BigchainDB software. As an event, <em class="text--9984">9984</em> allows enterprises and developers to connect with each other to progress the unique opportunities possible in scalable blockchain technology.</p>
+        <p>As a port, <em class="text--9984">9984</em> connects enterprises and developers to BigchainDB software. As an event, <em class="text--9984">9984</em> allows enterprises and developers to connect with each other to progress the unique opportunities possible in scalable blockchain technology.</p>
 
         <p>Possibilities such as liberating personal data from centralized silos, helping creatives feed their families, and shining light of transparency on ossified corrupt systems will take center stage during the event's two days of hands-on programming, presentations, and open discussions.</p>
 
@@ -31,31 +35,29 @@ front_page: true
     </div>
 </section>
 
-<section class="speakers">
+<section class="section section--speakers">
     <div class="row">
-        <h1>Speakers</h1>
+        <h1 class="section__title">Speakers</h1>
 
-        {% include speaker-list.html %}
+        {% include speakers-list.html %}
     </div>
 </section>
 
-<section class="schedule">
-
-</section>
-
-<section class="registration">
+<section id="tickets" class="section section--tickets">
     <div class="row">
-        <h1>Registration</h1>
+        <h1 class="section__title">Tickets</h1>
+
+        <p>Only ticketholders will be allowed entry.<br />
+        <strong>A ticket is 29 € + VAT</strong>.<br />
+        Tickets are nonrefundable and nontransferable.</p>
+
+        <a href="https://www.eventbrite.com/e/9984-summit-blockchain-futures-for-developers-enterprises-society-tickets-35492781866">Eventbrite</a>
     </div>
 </section>
 
-<section class="location">
-
-</section>
-
-<section class="bigchaindb">
+<section class="bigchaindb section">
     <div class="row">
-        <h1>This event is powered by BigchainDB</h1>
+        <h1 class="section__title">This event is powered by BigchainDB</h1>
 
         <p>BigchainDB is scalable blockchain software offering decentralization, immutability, and native assets. The software is used for large-scale applications in supply chain / IoT, intellectual property, identity, artificial intelligence, and more. BigchainDB provides unique solutions for developers, start-ups and enterprises to successfully build their concepts, platforms, and applications as big as they can dream.</p>
 

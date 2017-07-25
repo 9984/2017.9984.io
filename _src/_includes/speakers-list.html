@@ -1,7 +1,7 @@
-<div class="speaker-list">
+<div class="speakers">
 
     {% for speaker in site.speakers %}
-        <a class="speaker" href="{{ speaker.url | prepend: site.baseurl }}">
+        <a class="speaker {% if speaker.id == page.id %}active{% endif %}" href="{{ speaker.url | prepend: site.baseurl }}">
             <h1 class="speaker__name">{{ speaker.name }}</h1>
             <div class="speaker__company">{{ speaker.company }}</div>
         </a>

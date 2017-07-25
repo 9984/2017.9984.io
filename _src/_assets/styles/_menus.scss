@@ -1,0 +1,21 @@
+.menu {
+    .row {
+        @media ($screen-sm) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.menu__link {
+    padding: $spacer/2 $spacer;
+    display: inline-block;
+
+    &:first-child {
+        margin-left: -($spacer);
+    }
+
+    &:last-child {
+        margin-right: -($spacer);
+    }
+}

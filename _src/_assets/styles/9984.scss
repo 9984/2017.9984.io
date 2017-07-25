@@ -64,7 +64,7 @@ a {
 
 .row {
     margin: 0 auto;
-    padding: $spacer;
+    padding: 0 $spacer;
     max-width: 40rem;
 }
 
@@ -75,7 +75,7 @@ a {
 
 .button {
     display: inline-block;
-    padding: $spacer / 2 $spacer;
+    padding: $spacer / 2 $spacer * 2;
     text-align: center;
     background: $brand-01;
     color: #fff;
@@ -83,6 +83,14 @@ a {
     text-transform: uppercase;
     border-radius: 10rem;
     font-weight: 700;
+    line-height: 1;
+}
+
+.button__sub {
+    font-size: .7rem;
+    display: block;
+    margin-top: .3rem;
+    font-weight: 400;
 }
 
 .big-quote {
@@ -92,5 +100,8 @@ a {
     margin: $spacer auto 0 auto;
 }
 
+@import 'sections';
 @import 'hero';
-@import 'speaker';
+@import 'header';
+@import 'menus';
+@import 'speakers';
