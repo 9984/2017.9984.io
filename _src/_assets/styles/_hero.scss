@@ -1,5 +1,5 @@
 .hero {
-    background: #202a30;
+    background: $brand-03;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
     .hero__name,
     .hero__date,
     .hero__intro {
-        color: #e6e6e6;
+        color: $brand-04;
     }
 
     .text--9984 {
@@ -49,7 +49,7 @@
 }
 
 .hero__tagline {
-    background: rgba(#fff, .8);
+    background: rgba($brand-04, .8);
     padding: ($spacer / 1.5) ($spacer * 1.5);
     border-top-left-radius: 5rem;
     border-bottom-left-radius: 5rem;
@@ -66,7 +66,7 @@
         height: 100%;
         width: 100%;
         display: block;
-        background: rgba(#fff, .8);
+        background: rgba($brand-04, .8);
         right: -100%;
         top: 0;
     }

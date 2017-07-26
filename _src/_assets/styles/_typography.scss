@@ -1,0 +1,77 @@
+html {
+    font-size: $font-size-root;
+    -webkit-tap-highlight-color: transparent;
+
+    @media ($screen-lg) {
+        font-size: $font-size-root-lg;
+    }
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: $line-height;
+    color: $text-color;
+    background: $brand-04;
+    margin: 0;
+
+    // handling long text, like URLs
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-rendering: optimizeLegibility;
+    // Controversial! But prevents text flickering in
+    // Safari/Firefox when animations are running
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 { // stylelint-disable-line selector-list-comma-newline-after
+    color: $brand-03;
+    font-family: silkscreennormal, monospace;
+    margin-top: $spacer;
+    margin-bottom: $spacer;
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+p,
+ul,
+ol {
+    margin: 0 0 $spacer;
+}
+
+.text--9984 {
+    font-style: normal;
+    font-family: silkscreennormal, monospace;
+}
+
+.divider--9984 {
+    font-style: normal;
+    font-family: silkscreennormal, monospace;
+    color: $brand-01;
+}
+
+@font-face {
+    font-family: silkscreennormal;
+    // stylelint-disable declaration-colon-newline-after
+    src: url('/assets/fonts/slkscr-webfont.woff2') format('woff2'),
+        url('/assets/fonts/slkscr-webfont.woff') format('woff');
+    // stylelint-enable
+    font-weight: 400;
+    font-style: normal;
+}
+
+.silkscreen {
+    font-family: silkscreennormal, monospace;
+}
+
+.inconsolata {
+    font-family: Inconsolata, monospace;
+}
+
+a {
+    color: #000;
+}

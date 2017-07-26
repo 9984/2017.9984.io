@@ -5,6 +5,7 @@
 $brand-01:                  #ec008c !default;
 $brand-02:                  #f7931d !default;
 $brand-03:                  #202a30 !default;
+$brand-04:                  #e6e6e6 !default;
 
 //
 // Typography
@@ -19,6 +20,8 @@ $font-size-base:            1rem !default;
 $font-size-large:           1.3rem !default;
 $font-size-small:           .8rem !default;
 $font-size-mini:            .7rem !default;
+
+$text-color:                $brand-03 !default;
 
 //
 // Responsive breakpoints

@@ -1,0 +1,33 @@
+@import 'variables';
+
+.silkscreen,
+.inconsolata {
+    font-size: 6vw;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -$spacer;
+}
+
+.color {
+    flex: 1;
+    margin-left: $spacer;
+    padding: $spacer / 2;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.color--brand-01 { background: $brand-01; }
+.color--brand-02 { background: $brand-02; }
+.color--brand-03 { background: $brand-03; }
+
+.color--brand-04 {
+    background: $brand-04;
+    color: $text-color;
+}
+
+.color__meta {
+    display: block;
+}

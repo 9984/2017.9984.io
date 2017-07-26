@@ -30,6 +30,10 @@
     <link rel="stylesheet" href="/assets/css/9984.min.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
 
+    {% if page.css %}
+        <link rel="stylesheet" href="/assets/css/{{ page.css }}.min.css">
+    {% endif %}
+
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 

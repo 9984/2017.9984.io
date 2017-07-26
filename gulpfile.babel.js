@@ -133,7 +133,10 @@ export const html = () => src(DIST + '**/*.html')
 //
 // Styles
 //
-export const css = () => src(SRC + '_assets/styles/9984.scss')
+export const css = () => src([
+        SRC + '_assets/styles/9984.scss',
+        SRC + '_assets/styles/page-*.scss'
+    ])
     .pipe($.if(!(isProduction || isStaging), $.sourcemaps.init()))
     .pipe($.sass({
         includePaths: ['node_modules']
