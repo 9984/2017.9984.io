@@ -15,11 +15,20 @@
         width: 100px;
         clip-path: polygon(50% 0, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0 60%, 10% 20%);
         filter: grayscale(100%) contrast(120%);
+        //filter: sepia(90%) hue-rotate(270deg);
 
         @media ($screen-sm) {
+            width: 180px;
+        }
+
+        @media ($screen-lg) {
             width: 200px;
         }
     }
+}
+
+.speaker__intro {
+    font-size: $font-size-large;
 }
 
 .speaker__links {
@@ -46,6 +55,11 @@
             min-width: calc(100% / 3 + #{$spacer / 2});
         }
     }
+
+    .speaker__company,
+    .speaker__location {
+        opacity: .7;
+    }
 }
 
 .content--speaker {
@@ -62,6 +76,7 @@
 .speakers {
     @media ($screen-sm) {
         display: flex;
+        flex-wrap: wrap;
         margin-left: -$spacer;
     }
 
@@ -72,11 +87,11 @@
         display: block;
         padding: 1rem;
         transition: .2s ease-out;
-        font-size: .9rem;
+        font-size: $font-size-small;
         margin-bottom: $spacer;
 
         @media ($screen-sm) {
-            flex-basis: (100% / 3);
+            flex: 0 1 calc(100% / 3 - #{$spacer});
             margin-left: $spacer;
         }
 
@@ -86,7 +101,7 @@
     }
 
     .speaker__name {
-        font-size: 1rem;
+        font-size: $font-size-base;
         color: #fff;
     }
 

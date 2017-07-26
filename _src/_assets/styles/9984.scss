@@ -1,5 +1,15 @@
 @import 'variables';
 
+//
+// More sane box model
+//
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
 html {
     font-size: $font-size-root;
     -webkit-tap-highlight-color: transparent;
@@ -11,7 +21,7 @@ html {
 
 body {
     font-family: $font-family-base;
-    font-size: 1rem;
+    font-size: $font-size-base;
     line-height: $line-height;
     color: #333;
     background: #e6e6e6;
@@ -70,7 +80,7 @@ a {
 
 .footer {
     margin-top: $spacer;
-    font-size: .8rem;
+    font-size: $font-size-small;
 }
 
 .button {
@@ -87,14 +97,14 @@ a {
 }
 
 .button__sub {
-    font-size: .7rem;
+    font-size: $font-size-mini;
     display: block;
     margin-top: .3rem;
     font-weight: 400;
 }
 
 .big-quote {
-    font-size: 1.2rem;
+    font-size: $font-size-large;
     font-style: italic;
     max-width: 60%;
     margin: $spacer auto 0 auto;

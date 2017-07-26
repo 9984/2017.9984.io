@@ -10,10 +10,15 @@ $brand-03:                  #202a30 !default;
 // Typography
 //
 $font-family-base:          Inconsolata, monospace !default;
-$font-size-root:            18px !default;
-$font-size-root-lg:         20px !default;
+$font-size-root:            16px !default;
+$font-size-root-lg:         18px !default;
 $line-height:               1.4 !default;
 $spacer:                    1.5rem !default;
+
+$font-size-base:            1rem !default;
+$font-size-large:           1.3rem !default;
+$font-size-small:           .8rem !default;
+$font-size-mini:            .7rem !default;
 
 //
 // Responsive breakpoints

@@ -17,7 +17,8 @@ layout: base
                 <h1 class="speaker__name">
                     {{ speaker.name }}
                 </h1>
-                <div class="speaker__company">{{ speaker.company }}</div>
+                <div class="speaker__company">{{ speaker.position }}, {{ speaker.company }}</div>
+                <div class="speaker__location">{{ speaker.location }}</div>
             </div>
         </div>
 
@@ -30,9 +31,9 @@ layout: base
         <article class="speaker">
             <div class="speaker__info">
                 {% if speaker.intro %}
-                <div class="speaker__bio">
-                    <p class="intro">{{ speaker.intro | newline_to_br }}</p>
-                </div>
+                <p class="speaker__intro">
+                    {{ speaker.intro }}
+                </p>
                 {% endif %}
 
                 <div class="speaker__content">
