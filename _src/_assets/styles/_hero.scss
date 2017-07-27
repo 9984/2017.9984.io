@@ -6,8 +6,9 @@
     position: relative;
     overflow: hidden;
     padding-top: 0;
+    padding-bottom: 0;
 
-    @media ($screen-sm) and (min-height: 600px) {
+    @media ($screen-sm) and (min-height: 700px) {
         height: calc(100vh - #{$spacer * 4});
         min-height: 400px;
         max-height: 800px;
@@ -88,6 +89,41 @@
     font-size: $font-size-large;
     margin-bottom: $spacer * 1.5;
     font-weight: 700;
+}
+
+.hero__logos {
+    width: 100%;
+    align-self: flex-end;
+    margin-top: $spacer;
+    padding-bottom: $spacer;
+    padding-top: $spacer;
+
+    &,
+    .text--9984,
+    .logo-wrigleygang {
+        color: $brand-04;
+    }
+
+    .logo-wrigleygang {
+        fill: $brand-04;
+        max-width: 100%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.hero__logos__text {
+    font-size: $font-size-small;
+    display: inline-block;
+    transform: translateY(-3px);
+
+    &:after {
+        content: '//';
+        color: $brand-02;
+    }
 }
 
 .stage {

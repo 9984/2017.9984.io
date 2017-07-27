@@ -23,7 +23,7 @@ body {
 
 h1, h2, h3, h4, h5 { // stylelint-disable-line selector-list-comma-newline-after
     color: $brand-03;
-    font-family: silkscreennormal, monospace;
+    font-family: $font-family-silkscreen;
     margin-top: $spacer;
     margin-bottom: $spacer;
 
@@ -50,12 +50,12 @@ ol {
 
 .text--9984 {
     font-style: normal;
-    font-family: silkscreennormal, monospace;
+    font-family: $font-family-silkscreen;
 }
 
 .divider--9984 {
     font-style: normal;
-    font-family: silkscreennormal, monospace;
+    font-family: $font-family-silkscreen;
     color: $brand-01;
 }
 
