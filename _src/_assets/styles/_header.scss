@@ -3,10 +3,18 @@
     padding-bottom: $spacer;
     position: relative;
     background: $brand-03;
+    min-height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 
     .row {
         position: relative;
         z-index: 1;
+    }
+
+    * {
+        color: $brand-04;
     }
 }
 

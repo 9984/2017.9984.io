@@ -15,11 +15,6 @@ body {
     background: $brand-04;
     margin: 0;
 
-    // handling long text, like URLs
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    text-rendering: optimizeLegibility;
     // Controversial! But prevents text flickering in
     // Safari/Firefox when animations are running
     -webkit-font-smoothing: antialiased;
@@ -74,4 +69,8 @@ ol {
 
 a {
     color: #000;
+}
+
+.lead {
+    font-size: $font-size-large;
 }

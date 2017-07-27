@@ -41,8 +41,6 @@
 }
 
 .header--speaker {
-    margin-top: $spacer * 2;
-
     .speaker {
         @media ($screen-sm) {
             display: flex;

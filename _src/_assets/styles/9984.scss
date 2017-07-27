@@ -13,9 +13,8 @@
     font-size: $font-size-small;
 }
 
-.big-quote {
-    font-size: $font-size-large;
-    font-style: italic;
-    max-width: 60%;
-    margin: $spacer auto 0 auto;
+.section--intro {
+    p:not(:first-child) {
+        margin-right: (100% / 3);
+    }
 }

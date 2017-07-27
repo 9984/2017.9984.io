@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     position: relative;
     overflow: hidden;
+    padding-top: 0;
 
     @media ($screen-sm) and (min-height: 600px) {
         height: calc(100vh - #{$spacer * 4});
@@ -17,6 +18,12 @@
         z-index: 1;
     }
 
+    .menu {
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    .menu__link,
     .hero__name,
     .hero__date,
     .hero__intro {
@@ -59,7 +66,7 @@
     margin-right: -($spacer * 1.5);
     font-size: 1.5rem;
     color: $brand-03;
-    margin-bottom: $spacer * 2;
+    margin-bottom: $spacer;
 
     &:after {
         content: '';
