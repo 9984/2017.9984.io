@@ -57,6 +57,25 @@ Please consult a designer to assist you in using these fonts in your documents &
 
 # Logo
 
+Logo can be used with a base class and modifier classes for size & color:
+
+- `logo`: default logo
+- `logo--sm`: small version
+- `logo--white`: white version for dark backgrounds
+- `logo--gray`: dimmed gray version
+
+<svg class="logo" aria-labelledby="title"><title>Logo 9984 >> SUMMIT</title><use xlink:href="/assets/img/sprite.svg#logo"></use></svg>
+
+<svg class="logo logo--sm" aria-labelledby="title"><title>Logo 9984 >> SUMMIT</title><use xlink:href="/assets/img/sprite.svg#logo"></use></svg>
+
+<svg class="logo logo--white" aria-labelledby="title"><title>Logo 9984 >> SUMMIT</title><use xlink:href="/assets/img/sprite.svg#logo"></use></svg>
+
+<svg class="logo logo--sm logo--white" aria-labelledby="title"><title>Logo 9984 >> SUMMIT</title><use xlink:href="/assets/img/sprite.svg#logo"></use></svg>
+
+<svg class="logo logo--gray" aria-labelledby="title"><title>Logo 9984 >> SUMMIT</title><use xlink:href="/assets/img/sprite.svg#logo"></use></svg>
+
+<svg class="logo logo--sm logo--gray" aria-labelledby="title"><title>Logo 9984 >> SUMMIT</title><use xlink:href="/assets/img/sprite.svg#logo"></use></svg>
+
 
 # Components
 

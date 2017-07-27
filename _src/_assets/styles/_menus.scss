@@ -3,6 +3,10 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .logo {
+        height: 20px;
+    }
 }
 
 .menu__link {
@@ -17,4 +21,12 @@
     &:last-child {
         margin-right: -($spacer);
     }
+}
+
+.menu__link--logo {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }

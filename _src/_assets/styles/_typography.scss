@@ -38,6 +38,16 @@ ol {
     margin: 0 0 $spacer;
 }
 
+
+//
+// Lists
+//
+ul,
+ol {
+    margin-left: 0;
+    padding-left: $spacer;
+}
+
 .text--9984 {
     font-style: normal;
     font-family: silkscreennormal, monospace;
