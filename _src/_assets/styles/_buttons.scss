@@ -1,19 +1,61 @@
 .button {
     display: inline-block;
-    padding: $spacer / 2 $spacer * 2;
+    padding: ($spacer / $line-height) ($spacer * $line-height);
     text-align: center;
-    background: $brand-01;
+    background: $brand-05;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 10rem;
     font-weight: 700;
     line-height: 1;
+    font-size: $font-size-base;
+    transition: .2s ease-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+        outline: 0;
+    }
+
+    &:hover,
+    &:focus {
+        background: lighten($brand-05, 10%);
+    }
+
+    &:active {
+        transition: none;
+        background: darken($brand-05, 5%);
+    }
+}
+
+.button--primary {
+    background: $brand-01;
+
+    &:hover,
+    &:focus {
+        background: lighten($brand-01, 10%);
+    }
+
+    &:active {
+        background: darken($brand-01, 5%);
+    }
+}
+
+//
+// Button sizes
+//
+.button--small {
+    font-size: $font-size-small;
+    padding: $spacer / 3 $spacer;
+}
+
+.button--large {
+    font-size: $font-size-large;
+    padding: $spacer $spacer * 2;
 }
 
 .button__sub {
-    font-size: $font-size-mini;
-    display: block;
-    margin-top: .3rem;
+    font-size: $font-size-small;
     font-weight: 400;
 }

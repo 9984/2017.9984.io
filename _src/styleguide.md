@@ -62,7 +62,9 @@ Please consult a designer to assist you in using these fonts in your documents &
 
 ## Buttons
 
-<a class="button button--primary">Button</a> <a class="button button--primary button--xs">Button</a> <a class="button button--primary button--sm">Button</a> <a class="button button--primary button--lg">Button</a>
+<a class="button" href="#">Button</a> <a class="button button--small" href="#">Button</a> <a class="button button--large" href="#">Button</a>
+
+<a class="button button--primary" href="#">Button</a> <a class="button button--primary button--small" href="#">Button</a> <a class="button button--primary button--large" href="#">Button</a>
 
 ## Forms
 

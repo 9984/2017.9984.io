@@ -53,11 +53,6 @@
             min-width: calc(100% / 3 + #{$spacer / 2});
         }
     }
-
-    .speaker__company,
-    .speaker__location {
-        opacity: .7;
-    }
 }
 
 .content--speaker {

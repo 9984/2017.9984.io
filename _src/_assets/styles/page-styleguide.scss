@@ -9,11 +9,13 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: -$spacer;
+    width: calc(100% + $spacer);
 }
 
 .color {
-    flex: 1;
+    flex: 0 1 29.5%;
     margin-left: $spacer;
+    margin-bottom: $spacer;
     padding: $spacer / 2;
     border: 1px solid #fff;
     color: #fff;
@@ -27,6 +29,9 @@
     background: $brand-04;
     color: $text-color;
 }
+
+.color--brand-05 { background: $brand-05; }
+.color--brand-06 { background: $brand-06; }
 
 .color__meta {
     display: block;
