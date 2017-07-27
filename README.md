@@ -1,9 +1,9 @@
-# 2017.9984.io
+# ![9984 >> 2017.9984.io](https://github.com/9984/design/blob/master/repobanner-2017.9984.io.png)
 
 > The 9984 >> SUMMIT 2017 site
 >
-> Blockchain Futures for Developers, Enterprises &amp; Society
-> October 5 - 6, 2017
+> Blockchain Futures for Developers, Enterprises &amp; Society<br>
+> October 5 - 6, 2017<br>
 > https://2017.9984.io
 
 [![Build Status](https://travis-ci.org/9984/2017.9984.io.svg?branch=master)](https://travis-ci.org/9984/2017.9984.io)
