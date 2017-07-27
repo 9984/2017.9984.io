@@ -8,8 +8,9 @@
 }
 
 .menu__link {
-    padding: $spacer/2 $spacer;
+    padding: $spacer;
     display: inline-block;
+    text-decoration: none;
 
     &:first-child {
         margin-left: -($spacer);

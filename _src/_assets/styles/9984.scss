@@ -1,43 +1,16 @@
 @import 'variables';
-
-//
-// More sane box model
-//
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-.row {
-    margin: 0 auto;
-    padding: 0 $spacer;
-    max-width: 40rem;
-}
+@import 'typography';
+@import 'layout';
+@import 'sections';
+@import 'hero';
+@import 'header';
+@import 'menus';
+@import 'buttons';
+@import 'speakers';
 
 .footer {
     margin-top: $spacer;
     font-size: $font-size-small;
-}
-
-.button {
-    display: inline-block;
-    padding: $spacer / 2 $spacer * 2;
-    text-align: center;
-    background: $brand-01;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 10rem;
-    font-weight: 700;
-    line-height: 1;
-}
-
-.button__sub {
-    font-size: $font-size-mini;
-    display: block;
-    margin-top: .3rem;
-    font-weight: 400;
 }
 
 .big-quote {
@@ -46,10 +19,3 @@
     max-width: 60%;
     margin: $spacer auto 0 auto;
 }
-
-@import 'typography';
-@import 'sections';
-@import 'hero';
-@import 'header';
-@import 'menus';
-@import 'speakers';

@@ -1,12 +1,23 @@
 .header {
     padding-top: $spacer;
+    padding-bottom: $spacer;
+    position: relative;
+    background: $brand-03;
+
+    .row {
+        position: relative;
+        z-index: 1;
+    }
 }
 
 .header__title {
     font-size: 2.2rem;
+    color: $brand-04;
 }
 
 .header__subtitle {
     font-size: 1.5rem;
     margin-top: -$spacer;
+    margin-bottom: 0;
+    color: $brand-04;
 }

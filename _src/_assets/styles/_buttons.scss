@@ -1,0 +1,19 @@
+.button {
+    display: inline-block;
+    padding: $spacer / 2 $spacer * 2;
+    text-align: center;
+    background: $brand-01;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.button__sub {
+    font-size: $font-size-mini;
+    display: block;
+    margin-top: .3rem;
+    font-weight: 400;
+}
