@@ -7,7 +7,7 @@ location: "Los Altos, United States"
 talk_id: my-cool-talk
 
 intro: >
-    Mr. Chris Ballinger joined the Toyota Research Institute (TRI) in April 2017 following 14 years at Toyota Financial Services (TFS).
+    Chris Ballinger joined the Toyota Research Institute (TRI) in April 2017 following 14 years at Toyota Financial Services (TFS).
 
 links:
     - text: "@gah650"

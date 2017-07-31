@@ -7,7 +7,7 @@ location: "Masovian District, Poland"
 talk_id: my-cool-talk
 
 intro: >
-    Mr. Grzegorz Kapkowski, a software developer and the CTO of Userfeeds, has been programming professionally since 2007.
+    Grzegorz Kapkowski, a software developer and the CTO of Userfeeds, has been programming professionally since 2007.
 
 links:
     - text: "@kasparkorjus"

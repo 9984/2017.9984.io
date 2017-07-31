@@ -7,7 +7,7 @@ location: "Tallinn, Estonia"
 talk_id: my-cool-talk
 
 intro: >
-    Mr. Kaspar Korjus, as Managing Director of e-Residency, is building the first transnational digital identity platform in the world.
+    Kaspar Korjus, as Managing Director of e-Residency, is building the first transnational digital identity platform in the world.
 
 links:
     - text: "@kasparkorjus"

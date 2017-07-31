@@ -7,7 +7,7 @@ location: "Berlin, Germany"
 talk_id: my-cool-talk
 
 intro: >
-    As a web developer since the 90's, Mr. Peter Harris has built hundreds of sites across dozens of industries.
+    As a web developer since the 90's, Peter Harris has built hundreds of sites across dozens of industries.
 
 links:
     - text: "@peteratomic"
