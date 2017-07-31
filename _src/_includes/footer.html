@@ -1,12 +1,25 @@
 <footer class="footer">
     <div class="row">
 
-        <svg class="logo logo--sm logo--gray" aria-labelledby="title"><title>Logo 9984 >> SUMMIT</title><use xlink:href="/assets/img/sprite.svg#logo"></use></svg>
+        <nav class="menu menu--footer">
+            <a class="menu__link menu__link--logo" href="/">
+                <svg class="logo logo--sm logo--gray" aria-labelledby="title"><title>Logo 9984 >> SUMMIT</title><use xlink:href="/assets/img/sprite.svg#logo"></use></svg>
+            </a>
 
-        <nav class="menu-footer">
-            <a class="menu__link" href="/code-of-conduct/">Code of Conduct</a>
-            <a class="menu__link" href="/imprint/">Imprint</a>
-            <a class="menu__link" href="https://github.com/{{ site.github.org }}/{{ site.github.repo }}/blob/master/_src/{{ page.path }}">Edit on GitHub</a>
+            <div class="contact">
+                <a class="menu__link" href="https://twitter.com/bigchaindb">@bigchaindb</a>
+                <a class="menu__link" href="https://twitter.com/ipdbfoundation">@ipdbfoundation</a>
+                <a class="menu__link" href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </div>
+
+            <div class="pages">
+                <a class="menu__link" href="/speakers/">Speakers</a>
+                <a class="menu__link" href="/code-of-conduct/">Code of Conduct</a>
+                <a class="menu__link" href="/imprint/">Imprint</a>
+                <a class="menu__link" href="/styleguide/">Styleguide</a>
+                <a class="menu__link" href="https://github.com/{{ site.github.org }}/{{ site.github.repo }}/blob/master/_src/{{ page.path }}">// Edit on GitHub</a>
+            </div>
         </nav>
+
     </div>
 </footer>

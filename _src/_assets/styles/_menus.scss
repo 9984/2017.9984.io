@@ -1,18 +1,13 @@
 .menu {
-    .row {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .logo {
-        height: 20px;
-    }
+    width: 100%;
 }
 
 .menu__link {
     padding: $spacer;
     display: inline-block;
     text-decoration: none;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-base;
 
     &:first-child {
         margin-left: -($spacer);
@@ -29,4 +24,40 @@
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.menu--main {
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.menu--footer {
+    text-align: center;
+    padding-bottom: $spacer * 2;
+    margin-top: $spacer * 4;
+
+    .menu__link {
+        padding-top: $spacer / 4;
+        padding-bottom: $spacer / 4;
+        color: $brand-06;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .contact {
+        margin-top: $spacer / 2;
+        margin-bottom: $spacer * 2;
+    }
+
+    .pages {
+        margin-bottom: $spacer / 2;
+
+        .menu__link {
+            font-size: $font-size-small;
+        }
+    }
 }

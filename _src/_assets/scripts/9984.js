@@ -1,3 +1,6 @@
+
+//=include _smoothscroll.js
+
 //
 // Open external links in new window
 //
