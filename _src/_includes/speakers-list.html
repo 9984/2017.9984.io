@@ -2,8 +2,11 @@
 
     {% for speaker in site.speakers %}
         <a class="speaker {% if speaker.id == page.id %}active{% endif %}" href="{{ speaker.url | prepend: site.baseurl }}">
-            <h1 class="speaker__name">{{ speaker.name }}</h1>
-            <div class="speaker__company">{{ speaker.company }}</div>
+            <img class="speaker__image" src="/assets/img{{ speaker.id }}.jpg" alt="{{ speaker.name }}">
+            <div class="speaker__content">
+                <h1 class="speaker__name">{{ speaker.name }}</h1>
+                <div class="speaker__company">{{ speaker.company }}</div>
+            </div>
         </a>
     {% endfor %}
 

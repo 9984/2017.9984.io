@@ -10,9 +10,7 @@ layout: base
     <div class="row">
 
         <div class="speaker speaker--{{ speaker.id }} ">
-            <div class="speaker__image">
-                <img src="/assets/img{{ speaker.id }}.jpg" alt="">
-            </div>
+            <img class="speaker__image" src="/assets/img{{ speaker.id }}.jpg" alt="{{ speaker.name }}">
             <div class="speaker__text">
                 <h1 class="speaker__name">
                     {{ speaker.name }}

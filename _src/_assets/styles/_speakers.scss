@@ -11,19 +11,13 @@
 }
 
 .speaker__image {
-    img {
-        width: 100px;
-        clip-path: polygon(50% 0, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0 60%, 10% 20%);
-        filter: grayscale(100%) contrast(120%);
-        //filter: sepia(90%) hue-rotate(270deg);
+    width: 100px;
+    filter: grayscale(100%) contrast(120%);
+    border: 5px solid rgba(#fff, .2);
+    //filter: sepia(90%) hue-rotate(240deg);
 
-        @media ($screen-sm) {
-            width: 180px;
-        }
-
-        @media ($screen-lg) {
-            width: 200px;
-        }
+    @media ($screen-sm) {
+        width: 170px;
     }
 }
 
@@ -50,7 +44,11 @@
 
     .speaker__image {
         @media ($screen-sm) {
-            min-width: calc(100% / 3 + #{$spacer / 2});
+            margin-right: 4.5rem;
+        }
+
+        @media ($screen-lg) {
+            margin-right: 5.5rem;
         }
     }
 }
@@ -84,13 +82,26 @@
         margin-bottom: $spacer;
 
         @media ($screen-sm) {
-            flex: 0 1 calc(100% / 3 - #{$spacer});
+            flex: 0 1 calc(50% - #{$spacer});
             margin-left: $spacer;
+            display: flex;
+            align-items: center;
         }
 
         &:hover {
             background: $brand-01;
+
+            .speaker__image {
+                filter: none;
+            }
         }
+    }
+
+    .speaker__image {
+        width: 60px;
+        height: 60px;
+        margin-right: $spacer / 2;
+        border-width: 3px;
     }
 
     .speaker__name {
