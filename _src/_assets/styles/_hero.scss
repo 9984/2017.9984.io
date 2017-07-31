@@ -45,7 +45,7 @@
 
     .location {
         &:before {
-            content: ' | ';
+            content: ' // ';
             color: $brand-02;
         }
     }

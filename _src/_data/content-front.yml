@@ -1,0 +1,62 @@
+# -----------------
+# Section: Hero
+# -----------------
+hero:
+    text: >
+        IPDB will link 200 leading blockchain developers and enterprises at its inaugural <em class='text--9984'>9984 >> SUMMIT</em> to exchange insights, tackle challenges, and build a decentralized tomorrow, together with BigchainDB.
+
+    button: >
+        Get your ticket
+
+    price: >
+        29€ + VAT
+
+
+# -----------------
+# Section: Introduction
+# -----------------
+intro:
+    title: >
+        Where will blockchain of today lead civilization in 9984?
+
+    description: >
+        In a world changing with technology, blockchain brings future possibilities into present times… And with building catalysts comes responsibility.
+
+    content: >
+        As a port, <em class='text--9984'>9984</em> connects enterprises and developers to BigchainDB software. As an event, <em class='text--9984'>9984</em> allows enterprises and developers to connect with each other to progress the unique opportunities possible in scalable blockchain technology.
+
+
+        Possibilities such as liberating personal data from centralized silos, helping creatives feed their families, and shining light of transparency on ossified corrupt systems will take center stage during the event's two days of hands-on programming, presentations, and open discussions.
+
+
+        The year 1984 has passed, but has the dystopian society it described?
+
+
+# -----------------
+# Section: Speakers
+# -----------------
+speakers:
+    title: >
+        Speakers
+
+# Heads up! Rest of the speakers section is dynamically created.
+# Content for each speaker can be edited in the respective .md file in _src/_speakers/
+
+
+# -----------------
+# Section: Tickets
+# -----------------
+tickets:
+    title: >
+        Tickets
+
+    text: >
+        Only ticketholders will be allowed entry.
+
+        **A ticket is 29 € + VAT**.
+
+        Tickets are nonrefundable and nontransferable.
+
+    # will be replaced by embedded Eventbrite form
+    button: >
+        Get ticket on Eventbrite

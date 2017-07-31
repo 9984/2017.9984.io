@@ -15,7 +15,9 @@
 }
 
 .section--intro {
-    p:not(:first-child) {
-        margin-left: calc(100% / 3 + #{$spacer / 2});
+    @media ($screen-sm) {
+        p:not(.section__description) {
+            margin-left: calc(100% / 3 + #{$spacer / 2});
+        }
     }
 }

@@ -16,36 +16,93 @@
 
 ---
 
+**Table of Contents**
+- [Content editing](#content-editing)
+  - [Pages](#pages)
+  - [Special pages](#special-pages)
+    - [Front page](#front-page)
+  - [Speakers & Talks](#speakers--talks)
+    - [Adding / editing speakers & talks](#adding--editing-speakers--talks)
+    - [Add new content through GitHub](#add-new-content-through-github)
+- [Development](#development)
+  - [Install dependencies](#install-dependencies)
+  - [Development build](#development-build)
+- [Continuous deployment: always be shipping](#continuous-deployment-always-be-shipping)
+- [Manual deployment](#manual-deployment)
+  - [Prerequisite: authentication](#prerequisite-authentication)
+  - [Staging build & beta deployment](#staging-build--beta-deployment)
+  - [Production build & live deployment](#production-build--live-deployment)
+- [Coding conventions](#coding-conventions)
+  - [(S)CSS](#scss)
+- [Authors](#authors)
+
 # Content editing
 
-The following instructions apply to adding / editing speakers & talks.
+![unknown](https://user-images.githubusercontent.com/90316/28792395-c1b74594-762f-11e7-8ff6-b49586f39360.jpeg)
 
-## Adding / editing speakers & talks
+Most content on the site can be edited on GitHub without messing with HTML markup.
 
-- Each content item is represented as a Markdown file with YAML at the top. The data should look something like this:
-  ```
-  ---
-  property: "value"
-  other_property:
+The site's source and structure is in the [`_src/`](_src) folder. Ignore everything with an underscore in its name.
+
+When viewing a file on GitHub you will see a small pencil icon in the top right. Click that to edit the file.
+
+## Pages
+
+All pages are simple Markdown files. Markdown is a way of telling the site how an element should be marked up, like headings & bold text:
+
+```markdown
+I'm a simple paragraph. No fancy symbols needed.
+
+# I'm a heading 1
+## I'm a heading 2
+
+You can make text **bold like so**
+```
+
+Have a look at [Code of Conduct](_src/code-of-conduct.md) or the [Imprint](_src/imprint.md) to see how Markdown is used.
+
+## Special pages
+
+Some pages like front page & speakers page source their content dynamically during site build. This is so we have a single source of truth for content used in multiple places on the site.
+
+### Front page
+
+Content for all sections on front page is coming from a data file:
+- [`_src/_data/content-front.yml`](_src/_data/content-front.yml)
+
+## Speakers & Talks
+
+All speakers data is coming from individual speaker files in [`_src/_speakers`](_src/_speakers)
+
+### Adding / editing speakers & talks
+
+Each content item is represented as a Markdown file with YAML at the top. The data should look something like this:
+
+```
+---
+property: "value"
+other_property:
     - "list"
     - "of"
     - "values"
-  ---
-  ```
+---
+```
 
 ### Add new content through GitHub
 
-  1. Click into the appropriate directory ([/_src/_speakers](_src/_speakers), [/_src/_talks](_src/_talks)
-  1. Copy the data from an existing `.md` file
-  2. In the parent folder, click `Create new file`
-  3. Paste the data into GitHub and edit
-  4. Edit to your heart’s content!
-     - The filename you choose may determine the content page URL
-     - The `id` property should be the same as the filename
-  5. When finished, fill in a commit description and select `Create a new branch for this commit and start a pull request`.
-  6. Wait to see if the created pull request passes the build. If it does, click merge and your changes will be live
+1. Click into the appropriate directory ([/_src/_speakers](_src/_speakers), [/_src/_talks](_src/_talks)
+1. Copy the data from an existing `.md` file
+1. In the parent folder, click `Create new file`
+1. Paste the data into GitHub and edit
+1. Edit to your heart’s content!
+ - The filename you choose may determine the content page URL
+ - The `id` property should be the same as the filename
+1. When finished, fill in a commit description and select `Create a new branch for this commit and start a pull request`.
+1. Wait to see if the created pull request passes the build. If it does, click merge and your changes will be live
 
 # Development
+
+![200](https://user-images.githubusercontent.com/90316/28792559-56cbe02c-7630-11e7-851f-40192e0ce50a.gif)
 
 You need to have the following tools installed on your development machine before moving on:
 

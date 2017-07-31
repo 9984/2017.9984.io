@@ -1,22 +1,25 @@
 ---
 layout: base
-
 front_page: true
+
+description: "October 5 - 6, 2017, Berlin // Blockchain Futures for Developers, Enterprises &amp; Society"
 ---
+
+{% assign content = site.data.content-front %}
 
 <header class="hero section">
 
     {% include menu.html %}
 
-    <div class="row">
+    <div class="row event-wrapper">
         <hgroup class="hero__title">
-            <h1 class="hero__name">9984 <span class="divider--9984">>></span> SUMMIT</h1>
-            <h2 class="hero__date">October 5 - 6, 2017 <span class="location">Berlin, Germany</span></h2>
+            <h1 class="hero__name event-title">9984 <span class="divider--9984">>></span> SUMMIT 2017</h1>
+            <h2 class="hero__date"><span class="event-date">October 5 - 6, 2017</span> <span class="location">Berlin, Germany</span></h2>
         </hgroup>
-        <h2 class="hero__tagline">Blockchain Futures for Developers, Enterprises &amp; Society</h2>
-        <p class="hero__intro">IPDB will link 200 leading blockchain developers and enterprises at its inaugural <em class="text--9984">9984 >> SUMMIT</em> to exchange insights, tackle challenges, and build a decentralized tomorrow, together with BigchainDB.</p>
+        <h2 class="hero__tagline description">{{ site.description }}</h2>
+        <p class="hero__intro">{{ content.hero.text }}</p>
 
-        <a class="button button--primary" href="#tickets">Get your ticket <span class="button__sub">29€ + VAT</span></a>
+        <a class="button button--primary" href="#tickets">{{ content.hero.button }} <span class="button__sub event-price">{{ content.hero.price }}</span></a>
 
     </div>
 
@@ -43,21 +46,18 @@ front_page: true
 
 <section class="section section--intro">
     <div class="row">
-        <p class="lead">In a world changing with technology, blockchain brings future possibilities into present times… And with building catalysts comes responsibility.</p>
+        <h1 class="section__title">{{ content.intro.title }}</h1>
+        <p class="section__description">{{ content.intro.description }}</p>
 
-        <p>As a port, <em class="text--9984">9984</em> connects enterprises and developers to BigchainDB software. As an event, <em class="text--9984">9984</em> allows enterprises and developers to connect with each other to progress the unique opportunities possible in scalable blockchain technology.</p>
-
-        <p>Possibilities such as liberating personal data from centralized silos, helping creatives feed their families, and shining light of transparency on ossified corrupt systems will take center stage during the event's two days of hands-on programming, presentations, and open discussions.</p>
-
-        <p>The year 1984 has passed, but has the dystopian society it described? Looking ahead – we ask:</p>
-
-        <p class="lead">“Where will blockchain of today lead civilization in 9984?”</p>
+        <div class="">
+            {{ content.intro.content | markdownify }}
+        </div>
     </div>
 </section>
 
 <section class="section section--speakers">
     <div class="row">
-        <h1 class="section__title">Speakers</h1>
+        <h1 class="section__title">{{ content.speakers.title }}</h1>
 
         {% include speakers-list.html %}
     </div>
@@ -65,13 +65,11 @@ front_page: true
 
 <section id="tickets" class="section section--tickets">
     <div class="row">
-        <h1 class="section__title">Tickets</h1>
+        <h1 class="section__title">{{ content.tickets.title }}</h1>
 
-        <p>Only ticketholders will be allowed entry.<br />
-        <strong>A ticket is 29 € + VAT</strong>.<br />
-        Tickets are nonrefundable and nontransferable.</p>
+        {{ content.tickets.text | markdownify }}
 
-        <a class="button button--primary" href="https://www.eventbrite.com/e/9984-summit-blockchain-futures-for-developers-enterprises-society-tickets-35492781866">Get ticket on Eventbrite</a>
+        <a class="button button--primary" href="https://www.eventbrite.com/e/9984-summit-blockchain-futures-for-developers-enterprises-society-tickets-35492781866">{{ content.tickets.button }}</a>
     </div>
 </section>
 
