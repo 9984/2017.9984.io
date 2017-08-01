@@ -60,3 +60,25 @@ tickets:
     # will be replaced by embedded Eventbrite form
     button: >
         Get ticket on Eventbrite
+
+
+# -----------------
+# Section: Wrigley Gang
+# -----------------
+wrigleygang:
+    ipdb:
+        title: "Presented by IPDB"
+        text: >
+            IPDB is a global database for everyone, everywhere. It is built with identity and creators in mind. It allows the management of personal data, reputation, and privacy, along with secure attribution, metadata, licensing, and links to media files. It’s also flexible: the ultimate applications are up to users' imaginations, for everything from equal-opportunity banking to energy innovation.
+        links:
+            - title: Learn more
+              link: https://ipdb.foundation
+    bigchaindb:
+        title: "Powered by BigchainDB"
+        text: >
+            BigchainDB is scalable blockchain software offering decentralization, immutability, and native assets. The software is used for large-scale applications in supply chain / IoT, intellectual property, identity, artificial intelligence, and more. BigchainDB provides unique solutions for developers, start-ups and enterprises to successfully build their concepts, platforms, and applications as big as they can dream.
+        links:
+            - title: Get started
+              link: https://www.bigchaindb.com/getstarted
+            - title: Learn more
+              link: https://www.bigchaindb.com

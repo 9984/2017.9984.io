@@ -4,20 +4,78 @@
 @import 'sections';
 @import 'hero';
 @import 'header';
+@import 'footer';
 @import 'menus';
 @import 'buttons';
 @import 'logos';
 @import 'speakers';
-
-.footer {
-    margin-top: $spacer;
-    font-size: $font-size-small;
-}
 
 .section--intro {
     @media ($screen-sm) {
         p:not(.section__description) {
             margin-left: calc(100% / 3 + #{$spacer / 2});
         }
+    }
+}
+
+.section--wrigleygang {
+    margin-top: $spacer * 2;
+
+    @media ($screen-sm) {
+        display: flex;
+
+        .row {
+            padding-left: $spacer * 2;
+            padding-right: $spacer * 2;
+        }
+    }
+
+    .half {
+        padding-top: $spacer;
+        padding-bottom: $spacer * 2;
+
+        @media ($screen-sm) {
+            flex: 0 0 50%;
+        }
+
+        &:first-child {
+            background: #cad2da; // $brand-main-gray-light from bigchaindb/site
+
+            .row {
+                margin-right: 0;
+            }
+        }
+
+        &:last-child {
+            background: darken(#cad2da, 5%);
+
+            .row {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .starbase {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section__title {
+        border-top: 1px solid darken(#cad2da, 20%);
+        padding-top: $spacer;
+        margin-top: -1px;
+        color: #074354; // $brand-main-blue
+        font-size: 1.5rem;
+    }
+}
+
+.wrigleygang__header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .starbase {
+        align-self: flex-end;
     }
 }

@@ -38,3 +38,12 @@
     width: 140px;
     height: 33px;
 }
+
+.logo--bigchaindb {
+    fill: #074354; // $brand-main-blue
+    color: #39ba91; // $brand-main-green // the fill="currentColor" trick
+}
+
+.logo--ipdb {
+    fill: #074354;
+}
