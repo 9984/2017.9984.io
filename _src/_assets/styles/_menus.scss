@@ -8,6 +8,14 @@
     text-decoration: none;
     font-weight: $font-weight-bold;
     font-size: $font-size-base;
+    color: $brand-03;
+    opacity: .8;
+    transition: .2s ease-out;
+
+    &:hover,
+    &:focus {
+        opacity: 1;
+    }
 
     &:first-child {
         margin-left: -($spacer);
@@ -41,16 +49,22 @@
     .menu__link {
         padding-top: $spacer / 4;
         padding-bottom: $spacer / 4;
-        color: $brand-06;
+        opacity: .7;
+
+        &:hover {
+            opacity: 1;
+        }
     }
 
     .logo {
         margin: auto;
+        fill: $brand-01;
+        color: $brand-03;
     }
 
     .contact {
-        margin-top: $spacer / 2;
-        margin-bottom: $spacer * 2;
+        margin-top: $spacer / 1.5;
+        margin-bottom: $spacer;
     }
 
     .pages {
