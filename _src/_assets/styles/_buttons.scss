@@ -2,7 +2,7 @@
     display: inline-block;
     padding: ($spacer / $line-height) ($spacer * $line-height);
     text-align: center;
-    background: $brand-05;
+    background: lighten($brand-05, 5%);
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -10,7 +10,7 @@
     font-weight: 700;
     line-height: 1;
     font-size: $font-size-base;
-    transition: .2s ease-out;
+    transition: .15s ease-out;
 
     &:hover,
     &:focus,
@@ -22,21 +22,37 @@
 
     &:hover,
     &:focus {
-        background: lighten($brand-05, 10%);
+        background: $brand-01;
     }
 
     &:active {
         transition: none;
-        background: darken($brand-05, 5%);
+        background: darken($brand-01, 5%);
     }
 }
 
+//
+// Button variants
+//
 .button--primary {
     background: $brand-01;
 
     &:hover,
     &:focus {
         background: lighten($brand-01, 10%);
+    }
+
+    &:active {
+        background: darken($brand-01, 5%);
+    }
+}
+
+.button--dark {
+    background: $brand-03;
+
+    &:hover,
+    &:focus {
+        background: $brand-01;
     }
 
     &:active {

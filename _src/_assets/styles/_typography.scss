@@ -1,3 +1,6 @@
+@import 'variables';
+@import 'mixins';
+
 html {
     font-size: $font-size-root;
     -webkit-tap-highlight-color: transparent;
@@ -49,36 +52,21 @@ ol {
 }
 
 .text--9984 {
-    font-style: normal;
-    font-family: $font-family-silkscreen;
+    @include silkscreen;
 }
 
 .divider--9984 {
-    font-style: normal;
-    font-family: $font-family-silkscreen;
+    @include silkscreen;
     color: $brand-01;
-}
-
-@font-face {
-    font-family: silkscreennormal;
-    // stylelint-disable declaration-colon-newline-after
-    src: url('/assets/fonts/slkscr-webfont.woff2') format('woff2'),
-        url('/assets/fonts/slkscr-webfont.woff') format('woff');
-    // stylelint-enable
-    font-weight: 400;
-    font-style: normal;
-}
-
-.silkscreen {
-    font-family: silkscreennormal, monospace;
-}
-
-.inconsolata {
-    font-family: Inconsolata, monospace;
 }
 
 a {
     color: $brand-03;
+
+    &:hover,
+    &:focus {
+        color: darken($brand-03, 20%);
+    }
 }
 
 .lead {

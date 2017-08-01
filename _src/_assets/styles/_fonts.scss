@@ -1,0 +1,9 @@
+@font-face {
+    font-family: silkscreennormal;
+    // stylelint-disable declaration-colon-newline-after
+    src: url('/assets/fonts/slkscr-webfont.woff2') format('woff2'),
+        url('/assets/fonts/slkscr-webfont.woff') format('woff');
+    // stylelint-enable
+    font-weight: $font-weight-normal;
+    font-style: normal;
+}

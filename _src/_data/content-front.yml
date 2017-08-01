@@ -83,5 +83,6 @@ wrigleygang:
         links:
             - title: Get started
               link: https://www.bigchaindb.com/getstarted
+              primary: true
             - title: Learn more
               link: https://www.bigchaindb.com

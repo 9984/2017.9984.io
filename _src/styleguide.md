@@ -85,6 +85,8 @@ Logo can be used with a base class and modifier classes for size & color:
 
 <a class="button button--primary" href="#">Button</a> <a class="button button--primary button--small" href="#">Button</a> <a class="button button--primary button--large" href="#">Button</a>
 
+<a class="button button--dark" href="#">Button</a> <a class="button button--dark button--small" href="#">Button</a> <a class="button button--dark button--large" href="#">Button</a>
+
 ## Forms
 
 <form class="form js-parsley" action="#">

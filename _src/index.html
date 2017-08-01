@@ -89,7 +89,7 @@ description: "October 5 - 6, 2017, Berlin // Blockchain Futures for Developers, 
             {{ content.wrigleygang.ipdb.text | markdownify }}
 
             {% for link in content.wrigleygang.ipdb.links %}
-                <a class="button button--small" href="{{ link.link }}">{{ link.title }}</a>
+                <a class="wrigleygang__link" href="{{ link.link }}">{{ link.title }}</a>
             {% endfor %}
         </div>
     </div>
@@ -108,7 +108,7 @@ description: "October 5 - 6, 2017, Berlin // Blockchain Futures for Developers, 
             {{ content.wrigleygang.bigchaindb.text | markdownify }}
 
             {% for link in content.wrigleygang.bigchaindb.links %}
-                <a class="button button--small" href="{{ link.link }}">{{ link.title }}</a>
+                <a class="wrigleygang__link{% if link.primary %} button button--small{% endif %}" href="{{ link.link }}">{{ link.title }}</a>
             {% endfor %}
         </div>
     </div>
