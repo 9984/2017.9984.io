@@ -1,3 +1,68 @@
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.social.twitter.handle }}">
+<meta name="twitter:creator" content="@{{ site.social.twitter.handle }}">
+
+{% if page.front_page %}
+    <meta name="twitter:title" content="{{ site.name }}">
+{% else %}
+    <meta name="twitter:title" content="{{ page.title }} // {{ site.name }}">
+{% endif %}
+
+{% if page.url %}
+    <meta name="twitter:url" content="{{ site.url}}{{ page.url | replace:'index.html','' }}">
+{% endif %}
+
+{% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+{% elsif page.front_page %}
+    <meta name="twitter:description" content="{{ site.description }}">
+{% else %}
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+{% endif %}
+
+{% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/{{ page.image }}">
+{% else %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/share-image.jpg">
+{% endif %}
+
+
+<!-- Open Graph -->
+<meta content="website" property="og:type">
+<meta content="{{ site.name }}" property="og:site_name">
+
+{% if page.front_page %}
+    <meta property="og:title" content="{{ site.name }}">
+{% else %}
+    <meta property="og:title" content="{{ page.title }} // {{ site.name }}">
+{% endif %}
+
+{% if page.description %}
+    <meta property="og:description" content="{{ page.description }}">
+{% elsif page.front_page %}
+    <meta property="og:description" content="{{ site.description }}">
+{% else %}
+    <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}">
+{% endif %}
+
+{% if page.url %}
+    <meta property="og:url" content="{{ site.url}}{{ page.url | replace:'index.html','' }}">
+{% endif %}
+
+{% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% endif %}
+
+{% if page.image %}
+    <meta content="{{ site.url }}/assets/img/{{ page.image }}" property="og:image">
+{% else %}
+    <meta content="{{ site.url }}/assets/img/share-image.jpg" property="og:image">
+{% endif %}
+
+
+<!-- schema.org event metadata -->
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
