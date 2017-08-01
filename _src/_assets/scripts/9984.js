@@ -1,4 +1,5 @@
 
+//=include _dnt.js
 //=include _smoothscroll.js
 
 //

@@ -9,6 +9,8 @@ github:
     org:        "9984"
     repo:       "2017.9984.io"
 
+analyticsID:    "UA-60614729-10"
+
 # Collections
 # --------------------
 collections:
