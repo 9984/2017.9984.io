@@ -10,6 +10,25 @@
 @import 'logos';
 @import 'speakers';
 
+.page-front {
+    .menu--main {
+        text-align: right;
+
+        .row {
+            display: block;
+        }
+
+        .menu__link:last-child {
+            padding-right: 0;
+        }
+
+        .menu__logo,
+        .menu__link.button {
+            display: none;
+        }
+    }
+}
+
 .section--intro {
     @media ($screen-sm) {
         p:not(.section__description) {
