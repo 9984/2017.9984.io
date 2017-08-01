@@ -9,7 +9,7 @@ All attendees, speakers, sponsors and volunteers at our summit are required to a
 
 ## Need Help?
 
-You can reach the team at hello@9984.io. In case of an emergency please call +49 xxxx xxxxx.
+You can reach the team at {{ site.email }}. In case of an emergency please call +49 xxxx xxxxx.
 
 ## The Quick Version
 

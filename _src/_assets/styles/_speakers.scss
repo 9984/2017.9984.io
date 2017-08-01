@@ -26,12 +26,18 @@
     font-size: $font-size-large;
 }
 
+.speaker__content {
+    margin-bottom: $spacer;
+}
+
 .speaker__links {
     padding: 0;
 
     li {
         display: inline-block;
         margin-right: $spacer;
+
+        a { font-weight: $font-weight-bold; }
     }
 }
 
@@ -96,6 +102,10 @@
                 filter: none;
             }
         }
+    }
+
+    .speaker__content {
+        margin-bottom: 0;
     }
 
     .speaker__image {
