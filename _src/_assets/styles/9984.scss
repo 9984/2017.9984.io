@@ -60,7 +60,7 @@
         }
 
         &:first-child {
-            background: #cad2da; // $brand-main-gray-light from bigchaindb/site
+            background: rgba(#cad2da, .4); // $brand-main-gray-light from bigchaindb/site
 
             .row {
                 margin-right: 0;
@@ -68,7 +68,7 @@
         }
 
         &:last-child {
-            background: darken(#cad2da, 5%);
+            background: rgba(darken(#cad2da, 5%), .4);
 
             .row {
                 margin-left: 0;
