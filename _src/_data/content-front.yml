@@ -39,6 +39,9 @@ speakers:
     title: >
         Speakers
 
+    more: >
+        More speakers will be announced soon
+
 # Heads up! Rest of the speakers section is dynamically created.
 # Content for each speaker can be edited in the respective .md file in _src/_speakers/
 
