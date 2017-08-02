@@ -5,6 +5,7 @@ company: "BigchainDB"
 position: "Founder & CMO"
 location: "Berlin, Germany"
 talk_id: my-cool-talk
+featured: true
 
 intro: >
     Masha McConaghy PhD is co-founder of BigchainDB & ascribe. She's a Professional Curator and Researcher with a PhD in Arts from Paris I University, Panthéon-Sorbonne and Museology Degree from Louvre School, Paris, France.

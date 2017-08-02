@@ -5,6 +5,7 @@ company: "Hussein & Associates"
 position: "Managing Partner"
 location: "Nairobi, Kenya"
 talk_id: my-cool-talk
+featured: true
 
 intro: >
     Ali Hussein Kassim is the Managing Partner of Hussein & Associates, a Digital Transformation Consultancy focused on enabling clients to leverage digital technologies in order to achieve transformational change in their organizations.

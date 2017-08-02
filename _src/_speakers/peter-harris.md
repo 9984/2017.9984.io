@@ -5,6 +5,7 @@ company: "Resonate"
 position: "Founder"
 location: "Berlin, Germany"
 talk_id: my-cool-talk
+featured: true
 
 intro: >
     As a web developer since the 90's, Peter Harris has built hundreds of sites across dozens of industries.

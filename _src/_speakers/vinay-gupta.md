@@ -5,6 +5,7 @@ company: "Hexayurt.Capital"
 position: "Founder"
 location: "London, United Kingdom"
 talk_id: my-cool-talk
+featured: true
 
 intro: >
     Vinay Gupta is a technologist and policy analyst with a particular interest in how specific technologies can close or create new avenues for decision makers.

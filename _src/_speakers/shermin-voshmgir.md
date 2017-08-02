@@ -5,6 +5,7 @@ company: "BlockchainHub"
 position: "Founder"
 location: "Berlin, Germany"
 talk_id: my-cool-talk
+featured: true
 
 intro: >
     Shermin is the Founder of BlockchainHub and runs BlockchainHub Berlin. She is on the advisory board of the Estonian e-residency program, a curator of theDAO and regularly speaks at conferences and consults on Blockchains & Smart Contracts.

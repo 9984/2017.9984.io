@@ -1,6 +1,8 @@
 <div class="speakers">
 
     {% for speaker in site.speakers %}
+
+        {% capture speaker_unit %}
         <a class="speaker {% if speaker.id == page.id %}active{% endif %}" href="{{ speaker.url | prepend: site.baseurl }}">
             <img class="speaker__image" src="/assets/img{{ speaker.id }}.jpg" alt="{{ speaker.name }}">
             <div class="speaker__content">
@@ -8,10 +10,22 @@
                 <div class="speaker__company">{{ speaker.company }}</div>
             </div>
         </a>
+        {% endcapture %}
+
+        {% if page.front_page %}
+            {% if speaker.featured %}
+                {{ speaker_unit }}
+            {% endif %}
+        {% else %}
+            {{ speaker_unit }}
+        {% endif %}
+
     {% endfor %}
 
 </div>
 
-<div class="speakers__info">
-    {{ site.data.content-front.speakers.more }} &hellip;
-</div>
+{% if page.front_page %}
+    <div class="speakers__info">
+        <a class="button button--small button--dark" href="/speakers/">See all speakers</a>
+    </div>
+{% endif %}

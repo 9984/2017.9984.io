@@ -5,6 +5,7 @@ company: "NED Dun & Bradstreet"
 position: "Director"
 location: "Bonn, Germany"
 talk_id: my-cool-talk
+featured: true
 
 intro: >
     Dr. Anastassia Lauterbach has served as director of Dun & Bradstreet since 2013, and is member of the Nomination and Chairwoman of Technology & Innovation Committee.

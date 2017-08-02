@@ -5,6 +5,7 @@ company: "Daimler FleetBoard GmbH"
 position: "Business Development & Cooperation Manager"
 location: "Berlin, Germany"
 talk_id: my-cool-talk
+featured: true
 
 intro: >
    Kathleen Olstedt has been active in Berlin’s technology ecosystem since 2004.

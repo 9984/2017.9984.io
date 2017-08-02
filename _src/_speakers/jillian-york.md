@@ -5,6 +5,7 @@ company: "EFF"
 position: "Director for International Freedom of Expression"
 location: "Berlin, Germany"
 talk_id: my-cool-talk
+featured: true
 
 intro: >
     Jillian C. York is EFF's Director for International Freedom of Expression and is based in Berlin, Germany. Her work encompasses a broad range of topics, from digital security to the privatization of censorship.
