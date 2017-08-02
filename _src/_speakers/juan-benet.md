@@ -2,7 +2,7 @@
 name: Juan Benet
 id: juan-benet
 company: "Protocol Labs"
-position: "Founder"
+position: "CEO"
 location: "Palo Alto, United States"
 talk_id: my-cool-talk
 featured: true
