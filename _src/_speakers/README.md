@@ -6,6 +6,7 @@ Read the [Content Editing](../../README.md#content-editing) section of the main 
 
 Example
 
+```
 ---
 name: Firstname Lastname
 id: firstname-lastname
@@ -22,6 +23,7 @@ links:
 ---
 
 Dr. Zoidberg, that doesn't make sense. But, okay! Is today's hectic lifestyle making you tense and impatient? Actually, that's still true. Good news, everyone! I've taught the toaster to feel love! And then the battle's not so bad? Bender, hurry! This fuel's expensive! Also, we're dying! Of all the friends I've had… you're the first. Who are you, my warranty?! No! The kind with looting and maybe starting a few fires!
+```
 
  - `id`: unique id for the speaker.
    Will be used in the URL, so it should only contain lowercase-letters
