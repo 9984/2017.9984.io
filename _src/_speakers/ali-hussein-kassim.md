@@ -3,7 +3,7 @@ name: Ali Hussein Kassim
 id: ali-hussein-kassim
 company: "Hussein & Associates"
 position: "Managing Partner"
-location: "Nairobi, Kenia"
+location: "Nairobi, Kenya"
 talk_id: my-cool-talk
 
 intro: >
