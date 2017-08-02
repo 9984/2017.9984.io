@@ -51,7 +51,8 @@ ol {
     padding-left: $spacer;
 }
 
-.text--9984 {
+.text--9984,
+.silkscreen {
     @include silkscreen;
 }
 
