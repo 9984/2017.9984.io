@@ -231,4 +231,4 @@ Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts.
 
 Ticketbestellungen oder Rückfragen zum Ticketverkauf können über die folgenden Kontaktmöglichkeiten an die BigchainDB GmbH gerichtet werden: hello@9984.io
 
-Berlin, Januar 2017
+Berlin, August 2017
