@@ -14,13 +14,13 @@ The following General Terms and Conditions (T&Cs) shall exclusively govern the c
 
 These T&Cs shall apply exclusively. Terms and conditions of the customer which contradict with or depart from these T&Cs shall not be deemed incorporated into the contract.
 
-The object of the contract shall be the sale of tickets by the Organizer to the customer for the specific Tech Open Air event advertised in each case.
+The object of the contract shall be the sale of tickets by the Organizer to the customer for the specific 9984 Summit event advertised in each case.
 
 The customer may only buy tickets for the event from the Organizer’s website. A valid contract is formed between the parties at such time as the order process is completed and full payment for the tickets is made.
 
 Formation of contract takes place in German only. The German language version of these T&Cs shall always control in the event of ambiguities.
 
-Tickets grant the customer access to the Tech Open Air main event in Berlin for the duration of the event, the main closing party and they grant preferred access to Satellite events via special codes that are issued upon registration.
+Tickets grant the customer access to the 9984 Summit main event in Berlin for the duration of the event, the main closing party and they grant preferred access to Satellite events via special codes that are issued upon registration.
 
 ## III. Performance of the contract
 
@@ -44,7 +44,7 @@ Objections are to made as soon as possible, latest 3 days after receiving the ti
 
 Name changes will be facilitated up to 7 days prior to the commencement of the event. The new ticket user has to fulfill the requirements in 3.2. No name changes will be facilitated 7 days prior to the commencement of the event.
 
-The parties agree that Tech Open Air is a global networking event, which lives on the names of its participants. Appropriate to this fact the organiser is allowed to publish the information provided by the customer or to forward this data to third parties.
+The parties agree that 9984 Summit is a global networking event, which lives on the names of its participants. Appropriate to this fact the organiser is allowed to publish the information provided by the customer or to forward this data to third parties.
 
 Tickets are to be kept safely in order not to be reproduced by third parties. In case of loss and/or improper use of the ticket, customers cannot claim access to the event or reimbursement of the ticket price.
 
@@ -77,7 +77,7 @@ Abidance at the event is at the customer’s own risk.
 
 The customer hereby expressly confirms his agreement that the Organizer shall have the right to take photographs or make recordings of the customer before and during the entire event, and to publish, disseminate and circulate the same on the Internet, in print media and other media.
 
-The commercial use of own photos and footage taken at the venue of Tech Open Air requires agreement by the organiser.
+The commercial use of own photos and footage taken at the venue of 9984 Summit requires agreement by the organiser.
 
 ## VIII. Guarantee, liability, release, lost & found
 
