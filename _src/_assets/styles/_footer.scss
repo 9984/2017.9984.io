@@ -1,4 +1,14 @@
 .footer {
     margin-top: $spacer;
+    padding-bottom: $spacer * 2;
     font-size: $font-size-small;
+}
+
+.footer__copyright {
+    margin-top: $spacer;
+    opacity: .5;
+
+    a { text-decoration: none; }
+
+    p { margin-bottom: 0; }
 }

@@ -44,7 +44,6 @@
 }
 
 .menu--footer {
-    padding-bottom: $spacer * 2;
     margin-top: $spacer * 4;
 
     .menu__link {
@@ -67,7 +66,6 @@
     }
 
     .pages {
-        margin-bottom: $spacer / 2;
         display: flex;
 
         .menu__link {

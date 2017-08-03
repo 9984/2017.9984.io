@@ -35,6 +35,7 @@
 - [Coding conventions](#coding-conventions)
   - [(S)CSS](#scss)
 - [Authors](#authors)
+- [License](#license)
 
 # Content editing
 
@@ -213,3 +214,23 @@ npm test
 # Authors
 
 - Matthias Kretschmann ([@kremalicious](https://github.com/kremalicious)) - [BigchainDB](https://www.bigchaindb.com)
+
+# License
+
+For all code in this repository the Apache License, Version 2.0 is applied.
+
+```
+Copyright 9984 SUMMIT & 9984 HACK courtesy of IPDB and BigchainDB, 2017. All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
