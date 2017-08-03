@@ -9,7 +9,7 @@ hero:
         Get your ticket
 
     price: >
-        29€ + VAT
+        €29 + VAT
 
 
 # -----------------
@@ -53,7 +53,7 @@ tickets:
     text: >
         Only ticketholders will be allowed entry.
 
-        **A ticket is 29 € + VAT**.
+        **A ticket is €29 + VAT**.
 
         Tickets are nonrefundable and nontransferable.
 
