@@ -4,6 +4,7 @@ sitemap: false
 
 title: Style Guide
 subtitle: Look sharp and stay consistent
+description: Look sharp and stay consistent
 
 css: page-styleguide
 ---

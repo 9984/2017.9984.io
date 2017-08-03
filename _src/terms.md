@@ -2,6 +2,7 @@
 layout: page
 
 title: "AGB / Terms & Conditions"
+description: "General Terms & Conditions for Ticket Purchase with BigchainDB GmbH"
 ---
 
 You agree to the German General Terms and Conditions (see below) which have been translated into English for your convenience only. The German General Terms and Conditions are binding.
