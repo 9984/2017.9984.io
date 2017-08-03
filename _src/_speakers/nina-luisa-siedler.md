@@ -7,7 +7,7 @@ location: "Berlin, Germany"
 talk_id: my-cool-talk
 
 intro: >
-    Nina-Luisa Siedler has eighteen years' experience in advising on financing transactions. She is used to managing complex transactions and cooperating seamlessly with auditors, tax advisors, software engineers and other parties involved.
+    Nina-Luisa Siedler has 18 years of experience in advising on financing transactions. She is used to managing complex transactions and cooperating seamlessly with auditors, tax advisors, software engineers and other parties involved.
 
 links:
     - text: "@ninsie3"
