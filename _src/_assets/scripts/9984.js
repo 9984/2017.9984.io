@@ -1,6 +1,7 @@
 
 //=include _dnt.js
 //=include _smoothscroll.js
+//=include svg.js/dist/svg.js
 
 //
 // Open external links in new window
