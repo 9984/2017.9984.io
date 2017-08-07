@@ -73,7 +73,7 @@ Content for all sections on front page is coming from a data file:
 
 ## Speakers & Talks
 
-All speakers data is coming from individual speaker files in [`_src/_speakers`](_src/_speakers)
+All speakers data is coming from individual files in [`_src/_speakers`](_src/_speakers) & [`_src/_talks`](_src/_talks)
 
 ### Adding / editing speakers & talks
 
@@ -96,8 +96,6 @@ other_property:
 1. In the parent folder, click `Create new file`
 1. Paste the data into GitHub and edit
 1. Edit to your heart’s content!
- - The filename you choose may determine the content page URL
- - The `id` property should be the same as the filename
 1. When finished, fill in a commit description and select `Create a new branch for this commit and start a pull request`.
 1. Wait to see if the created pull request passes the build. If it does, click merge and your changes will be live
 
