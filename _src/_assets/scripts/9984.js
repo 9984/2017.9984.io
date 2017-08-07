@@ -19,13 +19,6 @@ for (var i = 0, linksLength = links.length; i < linksLength; i++) {
 //
 const draw = SVG('drawing')
 
-const pattern = draw.pattern(20, 20, function(add) {
-    add.rect(20, 20).move(5, 5).fill('#000').opacity(.2)
-})
-
-const rect = draw.rect('100%', '100%')
-rect.fill(pattern)
-
 const nineNineEightFour = function() {
 
     const nineGroup = draw.group()
@@ -244,7 +237,7 @@ const nineNineEightFour = function() {
 
     nineNineEightFourGroup.add(nineGroup).add(nine2Group).add(eightGroup).add(fourGroup).addClass('nine-nine-eight-four')
 
-    nineNineEightFourGroup.transform({ x: -5, y: -5 }).opacity(.25)
+    nineNineEightFourGroup.transform({ x: -12, y: 2 }).opacity(.3)
 }
 nineNineEightFour()
 

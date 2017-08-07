@@ -52,7 +52,7 @@
 }
 
 .hero__name {
-    font-size: 2.5rem;
+    font-size: 3.03rem;
     margin: 0;
 }
 
@@ -144,8 +144,9 @@
     }
 
     &:after {
-        background: radial-gradient(ellipse at center, rgba(#fff, .3) 0%, rgba(#fff, 0) 80%);
-        mix-blend-mode: multiply;
+        background: url('../img/pixel-pattern.svg') repeat left top, radial-gradient(ellipse at center, rgba(#fff, .4) 0%, rgba(#fff, 0) 80%);
+        z-index: -1;
+        opacity: .4;
     }
 }
 
