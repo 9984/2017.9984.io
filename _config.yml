@@ -16,6 +16,8 @@ analyticsID:    "UA-60614729-10"
 collections:
     speakers:
         output: true
+    talks:
+        output: false
 
 defaults:
     - scope:
