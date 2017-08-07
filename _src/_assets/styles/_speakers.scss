@@ -60,11 +60,40 @@
 }
 
 .content--speaker {
-    .speaker {
+    .speaker__info {
         @media ($screen-sm) {
             margin-left: calc(100% / 3 + #{$spacer / 2});
         }
     }
+}
+
+.speaker__talk {
+    margin-top: $spacer * 3;
+}
+
+.talk {
+    border: 2px solid $brand-05;
+    padding: $spacer;
+}
+
+.talk__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+
+    &:after {
+        content: '//';
+        color: $brand-02;
+        font-family: $font-family-silkscreen;
+        margin-left: .3rem;
+    }
+}
+
+.talk__time {
+    margin-bottom: $spacer / 2;
+    font-weight: $font-weight-bold;
+    color: $brand-06;
 }
 
 //

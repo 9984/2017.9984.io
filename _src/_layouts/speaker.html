@@ -3,6 +3,7 @@ layout: base
 ---
 
 {% assign speaker = page %}
+{% assign talk = site.talks | where: 'talk_id', speaker.talk_id | first %}
 
 {% include menu.html %}
 
@@ -15,7 +16,7 @@ layout: base
                 <h1 class="speaker__name">
                     {{ speaker.name }}
                 </h1>
-                <div class="speaker__company">{{ speaker.position }}, {{ speaker.company }}</div>
+                <div class="speaker__company">{{ speaker.position }}{% if speaker.company %}, {{ speaker.company }}{% endif %}</div>
                 <div class="speaker__location">{{ speaker.location }}</div>
             </div>
         </div>
@@ -47,6 +48,19 @@ layout: base
                     {% endfor %}
                 </ul>
             </div>
+
+            {% if talk %}
+            <aside class="speaker__talk">
+                <h2 class="speaker__talk__title">{{ talk.type }} <em class="divider--9984">>></em> 9984</h2>
+                <div class="talk">
+                    <h3 class="talk__title">{{ talk.title }}</h3>
+                    <div class="talk__time">Time: {{ talk.time }}</div>
+                    <div class="talk__content">
+                        {{ talk.content }}
+                    </div>
+                </div>
+            </aside>
+            {% endif %}
         </article>
 
     </div>

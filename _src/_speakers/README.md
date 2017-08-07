@@ -1,6 +1,9 @@
-# To add / edit speakers
+# Add / edit speakers
 
 Read the [Content Editing](../../README.md#content-editing) section of the main README.
+
+- The filename you choose determines the speaker page URL
+- The `id` property should be the same as the filename
 
 ## Properties
 
@@ -12,6 +15,7 @@ name: Firstname Lastname
 id: firstname-lastname
 talk_id: my-cool-talk
 company: "Speaker Company"
+location: "City, Country"
 featured: true
 
 intro: "Intro text for speaker. Yes, I saw. You were doing well, until everyone died."
@@ -26,8 +30,7 @@ Dr. Zoidberg, that doesn't make sense. But, okay! Is today's hectic lifestyle ma
 ```
 
  - `id`: unique id for the speaker.
-   Will be used in the URL, so it should only contain lowercase-letters
-   and dashes. Should also correspond to the filename (in the example that'd be `firstname-lastname.md`)
+   Should correspond to the all lowercase filename (in the example that'd be `firstname-lastname.md`)
  - `talk_id`: the id of the talk this speaker will give. Corresponds to a filename (without `.md`-extension) in `../_talks`.
  - `name`: the name of the speaker to be displayed in the header of the site.
  - `company`: the company of the speaker, will be displayed along with the name in teaser and speaker-header.
