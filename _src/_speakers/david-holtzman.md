@@ -1,7 +1,7 @@
 ---
 name: David Holtzman
 id: david-holtzman
-position: ""
+position: "Technical Advisor & Architect of Modern DNS"
 location: ""
 talk_id: building-the-future-from-our-heads-not-our-hands
 
