@@ -37,7 +37,7 @@ layout: base
                 {% endif %}
 
                 <div class="speaker__content">
-                    {{ speaker.content }}
+                    {{ speaker.content | markdownify }}
                 </div>
 
                 <ul class="speaker__links">
@@ -56,7 +56,7 @@ layout: base
                     <h3 class="talk__title">{{ talk.title }}</h3>
                     <div class="talk__time">Time: {{ talk.time }}</div>
                     <div class="talk__content">
-                        {{ talk.content }}
+                        {{ talk.content | markdownify }}
                     </div>
                 </div>
             </aside>

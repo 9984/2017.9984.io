@@ -4,7 +4,7 @@ id: anastassia-lauterbach
 company: "NED Dun & Bradstreet"
 position: "Director"
 location: "Bonn, Germany"
-talk_id: my-cool-talk
+talk_id: artificial-intelligence-and-societies
 featured: true
 
 intro: >

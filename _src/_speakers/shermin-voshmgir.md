@@ -4,7 +4,7 @@ id: shermin-voshmgir
 company: "BlockchainHub"
 position: "Founder"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: digital-human-rights
 featured: true
 
 intro: >
