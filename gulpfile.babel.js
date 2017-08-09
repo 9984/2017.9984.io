@@ -438,10 +438,10 @@ export const seo = (done) => {
         }
     }
 
-    // if ($.util.env.live === true) {
-    //     request(googleUrl + site.url + '/sitemap.xml', response)
-    //     request(bingUrl + site.url + '/sitemap.xml', response)
-    // }
+    if ($.util.env.live === true) {
+        request(googleUrl + site.url + '/sitemap.xml', response)
+        request(bingUrl + site.url + '/sitemap.xml', response)
+    }
 
     done()
 }
