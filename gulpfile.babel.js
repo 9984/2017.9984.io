@@ -46,7 +46,7 @@ const SRC      = site.source + '/',
 // deployment
 const S3BUCKET         = '2017.9984.io',
       S3REGION         = 'eu-central-1',
-      S3BUCKET_BETA    = 'beta.2017.9984.io',
+      S3BUCKET_BETA    = 'beta2017.9984.io',
       S3REGION_BETA    = 'eu-central-1'
 
 // SVG sprite

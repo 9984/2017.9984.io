@@ -12,7 +12,7 @@
 
 ---
 
-**[Live](http://2017.9984.io) | [Beta](http://beta.2017.9984.io)**
+**[Live](http://2017.9984.io) | [Beta](https://beta2017.9984.io)**
 
 ---
 
