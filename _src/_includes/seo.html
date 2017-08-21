@@ -60,8 +60,18 @@
     <meta content="{{ site.url }}/assets/img/share-image.png" property="og:image">
 {% endif %}
 
+<!-- schema.org metadata -->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "{{ site.url }}",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "image":"//assets/img/share-image.png"
+    }
+</script>
 
-<!-- schema.org event metadata -->
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
