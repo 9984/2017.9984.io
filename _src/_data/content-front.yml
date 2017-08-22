@@ -3,7 +3,7 @@
 # -----------------
 hero:
     text: >
-        IPDB will link 200 leading blockchain developers and enterprises at its inaugural <em class='text--9984'>9984 >> SUMMIT</em> to exchange insights, tackle challenges, and build a decentralized tomorrow, together with BigchainDB.
+        IPDB will connect 200 leading blockchain developers and enterprises at its inaugural <em class='text--9984'>9984 >> SUMMIT</em> to exchange insights, tackle challenges and build a decentralized tomorrow, together with BigchainDB.
 
     button: >
         Get your ticket
@@ -20,16 +20,13 @@ intro:
         Where will blockchain of today lead civilization in 9984?
 
     description: >
-        In a world changing with technology, blockchain brings future possibilities into present times… And with building catalysts comes responsibility.
+        In a world changing with technology, blockchain brings future possibilities into present times and with building catalysts comes responsibility.
 
     content: >
-        As a port, <em class='text--9984'>9984</em> connects enterprises and developers to BigchainDB software. As an event, <em class='text--9984'>9984</em> allows enterprises and developers to connect with each other to progress the unique opportunities possible in scalable blockchain technology.
+        As a port, <em class='text--9984'>9984</em> connects enterprises and developers to BigchainDB software. As an event, <em class='text--9984'>9984</em> allows enterprises and developers to connect with each other to take the unique opportunities made possible with scalable blockchain technology to the next level.
 
 
-        Possibilities such as liberating personal data from centralized silos, helping creatives feed their families, and shining light of transparency on ossified corrupt systems will take center stage during the event's two days of hands-on programming, presentations, and open discussions.
-
-
-        The year 1984 has passed, but has the dystopian society it described?
+        Possibilities such as liberating personal data from centralized silos, helping creatives feed their families, and shining light on ossified corrupt systems will take center stage during the event's two days of hands-on programming, presentations and open discussions.
 
 
 # -----------------
@@ -65,17 +62,17 @@ wrigleygang:
     ipdb:
         title: "Presented by IPDB"
         text: >
-            IPDB is a global database for everyone, everywhere. It is built with identity and creators in mind. It allows the management of personal data, reputation, and privacy, along with secure attribution, metadata, licensing, and links to media files. It’s also flexible: the ultimate applications are up to users' imaginations, for everything from equal-opportunity banking to energy innovation.
+            IPDB is a global database for everyone, everywhere. It is built with identity and creators in mind. It allows the management of personal data, reputation and privacy, along with secure attribution, metadata, licensing and links to media files. It’s also flexible: the ultimate applications are up to users' imaginations, for everything from equal-opportunity banking to energy innovation.
         links:
-            - title: Learn more
+            - title: Learn More
               link: https://ipdb.foundation
     bigchaindb:
         title: "Powered by BigchainDB"
         text: >
-            BigchainDB is scalable blockchain software offering decentralization, immutability, and native assets. The software is used for large-scale applications in supply chain / IoT, intellectual property, identity, artificial intelligence, and more. BigchainDB provides unique solutions for developers, start-ups and enterprises to successfully build their concepts, platforms, and applications as big as they can dream.
+            BigchainDB is scalable blockchain database with decentralization, immutability and native assets. The software is used for large-scale applications in supply chain, IoT, intellectual property, identity, artificial intelligence and more. BigchainDB provides unique solutions for developers, start-ups and enterprises to successfully build their concepts, platforms, and applications as big as they can dream.
         links:
             - title: Get started
               link: https://www.bigchaindb.com/getstarted
               primary: true
-            - title: Learn more
+            - title: Learn More
               link: https://www.bigchaindb.com
