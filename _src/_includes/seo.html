@@ -16,7 +16,7 @@
 {% if page.description %}
     <meta name="twitter:description" content="{{ page.description }}">
 {% elsif page.front_page %}
-    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:description" content="{{ site.data.content-front.hero.text | strip_html | strip_newlines }}">
 {% else %}
     <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
 {% endif %}
@@ -41,7 +41,7 @@
 {% if page.description %}
     <meta property="og:description" content="{{ page.description }}">
 {% elsif page.front_page %}
-    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.data.content-front.hero.text | strip_html | strip_newlines }}">
 {% else %}
     <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}">
 {% endif %}
@@ -91,6 +91,7 @@
         "description": "{{ site.description }}",
         "about": "IPDB will link 200 leading blockchain developers and enterprises at its inaugural 9984 >> SUMMIT to exchange insights, tackle challenges, and build a decentralized tomorrow, together with BigchainDB.",
         "url": "{{ site.url }}",
+        "image":"//assets/img/share-image.png",
         "organizer": "IPDB Foundation & BigchainDB",
         "offers": {
             "@type": "Offer",
