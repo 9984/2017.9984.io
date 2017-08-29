@@ -19,17 +19,44 @@
 }
 
 .menu__link--logo {
-    padding-top: 0;
     padding-bottom: 0;
     height: 100%;
     display: flex;
     align-items: center;
+
+    @media ($screen-sm) {
+        padding-top: 0;
+    }
+}
+
+.menu-overflow {
+    // yummy scrolling
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -$spacer;
+    margin-right: -$spacer;
+    padding-left: $spacer;
+    padding-right: $spacer;
+    text-align: center;
+
+    &::-webkit-scrollbar { display: none; }
+
+    @media ($screen-md) {
+        margin: 0;
+        padding: 0;
+        white-space: normal;
+        overflow: visible;
+        text-align: left;
+    }
 }
 
 .menu--main {
     .row {
-        display: flex;
-        justify-content: space-between;
+        @media ($screen-sm) {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     .menu__link {

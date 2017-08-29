@@ -110,17 +110,16 @@
         text-decoration: none;
         background: $brand-03;
         color: #fff;
-        display: block;
         padding: 1rem;
         transition: .15s ease-out;
         font-size: $font-size-small;
         margin-bottom: $spacer;
+        display: flex;
+        align-items: center;
 
         @media ($screen-sm) {
             flex: 0 1 calc(50% - #{$spacer});
             margin-left: $spacer;
-            display: flex;
-            align-items: center;
         }
 
         &:hover {

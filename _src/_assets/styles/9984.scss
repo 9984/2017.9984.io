@@ -39,6 +39,16 @@
     }
 }
 
+.section--tickets {
+    iframe {
+        height: 370px;
+
+        @media ($screen-sm) {
+            height: 308px;
+        }
+    }
+}
+
 .section--wrigleygang {
     margin-top: $spacer * 2;
 

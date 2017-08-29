@@ -52,13 +52,26 @@
 }
 
 .hero__name {
-    font-size: 3.03rem;
-    margin: 0;
+    font-size: 1.55rem;
+
+
+    @media ($screen-sm) {
+        font-size: 3.03rem;
+        margin: 0;
+    }
+}
+
+.hero__date,
+.hero__tagline {
+    font-size: 1.2rem;
+
+    @media ($screen-sm) {
+        font-size: 1.5rem;
+    }
 }
 
 .hero__date {
     margin: 0;
-    font-size: 1.5rem;
 }
 
 .hero__tagline {
@@ -69,7 +82,6 @@
     position: relative;
     margin-left: -($spacer * 1.5);
     margin-right: -($spacer * 1.5);
-    font-size: 1.5rem;
     color: $brand-03;
     margin-bottom: $spacer;
 
