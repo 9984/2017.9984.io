@@ -12,7 +12,7 @@ front_page: true
     <div class="row">
         <hgroup class="hero__title">
             <h1 class="hero__name">9984 <span class="divider--9984">>></span> SUMMIT 2017</h1>
-            <h2 class="hero__date">October 5–6, 2017 <span class="location">Berlin, Germany</span></h2>
+            <h2 class="hero__date">{{ content.hero.date }} <span class="location">{{ content.hero.location }}</span></h2>
         </hgroup>
         <h2 class="hero__tagline">{{ site.description }}</h2>
         <p class="hero__intro">{{ content.hero.text }}</p>
@@ -58,6 +58,18 @@ front_page: true
         <h1 class="section__title">{{ content.speakers.title }}</h1>
 
         {% include speakers-list.html %}
+    </div>
+</section>
+
+<section class="section section--venue" id="venue">
+    <div class="row">
+        <h1 class="section__title">{{ content.venue.title }}</h1>
+
+        <div class="location">
+            {{ content.venue.location | markdownify }}
+        </div>
+
+        <aside id="map" class="map"></aside>
     </div>
 </section>
 

@@ -4,7 +4,10 @@
 hero:
     text: >
         IPDB will connect 200 leading blockchain developers and enterprises at its inaugural <em class='text--9984'>9984 >> SUMMIT</em> to exchange insights, tackle challenges and build a decentralized tomorrow, together with BigchainDB.
-
+    date: >
+        October 5–6, 2017
+    location: >
+        ESMT, Berlin, Germany
     button: >
         Get your ticket
 
@@ -38,6 +41,19 @@ speakers:
 
 # Heads up! Rest of the speakers section is dynamically created.
 # Content for each speaker can be edited in the respective .md file in _src/_speakers/
+
+
+# -----------------
+# Section: Location
+# -----------------
+venue:
+    title: >
+        Venue
+    location: >
+        ### ESMT Berlin <span class="divider--9984">>></span> Auditorium Maximum
+
+        Schlossplatz 1<br>
+        10178 Berlin
 
 
 # -----------------
