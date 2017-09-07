@@ -44,6 +44,19 @@ speakers:
 
 
 # -----------------
+# Section: Location
+# -----------------
+location:
+    title: >
+        Location
+    venue: >
+        ### ESMT Berlin <span class="divider--9984">>></span> Auditorium Maximum
+
+        Schlossplatz 1<br>
+        10178 Berlin
+
+
+# -----------------
 # Section: Tickets
 # -----------------
 tickets:
