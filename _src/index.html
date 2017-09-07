@@ -61,16 +61,15 @@ front_page: true
     </div>
 </section>
 
-<section class="section section--location">
+<section class="section section--venue" id="venue">
     <div class="row">
-        <h1 class="section__title">{{ content.location.title }}</h1>
+        <h1 class="section__title">{{ content.venue.title }}</h1>
 
-        <div class="venue">
-            {{ content.location.venue | markdownify }}
+        <div class="location">
+            {{ content.venue.location | markdownify }}
         </div>
 
         <aside id="map" class="map"></aside>
-
     </div>
 </section>
 
