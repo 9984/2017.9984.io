@@ -4,7 +4,7 @@ id: alexander-koppel
 company: "Riddle & Code"
 position: "CEO and Co-Founder"
 location: "Vienna, Austria"
-talk_id: my-cool-talk
+talk_id: blockchain-and-society
 
 intro: >
     Alexander is CEO of Riddle & Code, the end to end blockchain interface company.

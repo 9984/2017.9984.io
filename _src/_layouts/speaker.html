@@ -32,7 +32,7 @@ layout: base
             <div class="speaker__info">
                 {% if speaker.intro %}
                 <p class="speaker__intro">
-                    {{ speaker.intro }}
+                    {{ speaker.intro | markdownify }}
                 </p>
                 {% endif %}
 
