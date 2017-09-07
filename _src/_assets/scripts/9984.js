@@ -18,26 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     //
-    // Map
-    //
-    const map = new GMaps({
-        el: '#map',
-        lat: 52.5157068,
-        lng: 13.3992704,
-        title: 'ESMT Berlin'
-    })
-
-    map.addMarker({
-        lat: 52.5157068,
-        lng: 13.3992704,
-        title: 'ESMT Berlin',
-        infoWindow: {
-            content: '<h3>ESMT Berlin</h3><p>Schlossplatz 1<br>10178 Berlin</p>'
-        }
-    })
-
-
-    //
     // Hero/header background
     //
     const draw = SVG('drawing')

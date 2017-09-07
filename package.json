@@ -25,7 +25,6 @@
     "ie >= 10"
   ],
   "dependencies": {
-    "gmaps": "^0.4.24",
     "svg.js": "^2.6.3"
   },
   "devDependencies": {
