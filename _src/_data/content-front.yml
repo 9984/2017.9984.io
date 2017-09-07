@@ -4,7 +4,10 @@
 hero:
     text: >
         IPDB will connect 200 leading blockchain developers and enterprises at its inaugural <em class='text--9984'>9984 >> SUMMIT</em> to exchange insights, tackle challenges and build a decentralized tomorrow, together with BigchainDB.
-
+    date: >
+        October 5–6, 2017
+    location: >
+        ESMT, Berlin, Germany
     button: >
         Get your ticket
 
