@@ -10,10 +10,8 @@ intro: >
     Chris Ballinger joined the Toyota Research Institute (TRI) in April 2017 following 14 years at Toyota Financial Services (TFS).
 
 links:
-    - text: "@gah650"
-      url: "https://twitter.com/gah650"
     - text: "LinkedIn"
-      url: "https://www.linkedin.com/in/georgeahoward"
+      url: "https://www.linkedin.com/in/chris-ballinger-5aa38912"
 ---
 
 Upon his transition, Ballinger served in a global leadership role for TFS as Senior Vice President, Chief Financial Officer and Chief Officer of Strategic Innovation, helping guide global TFS strategy to address future market trends and business model requirements.
