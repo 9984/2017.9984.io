@@ -10,8 +10,6 @@ intro: >
     Grzegorz Kapkowski, a software developer and the CTO of Userfeeds, has been programming professionally since 2007.
 
 links:
-    - text: "@kasparkorjus"
-      url: "https://twitter.com/kasparkorjus"
     - text: "LinkedIn"
       url: "https://www.linkedin.com/in/grzegorzkapkowski"
 ---
