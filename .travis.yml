@@ -1,7 +1,7 @@
-sudo: required
-dist: trusty
-
 language: ruby
+# Use container-based infrastructure for quicker build start-up
+sudo: false
+
 rvm:
     - 2.4.0
 
@@ -16,6 +16,9 @@ before_install:
 before_script: "_ci/setup.sh"
 script: "_ci/build.sh"
 after_success: "_ci/deploy.sh"
+
+matrix:
+  fast_finish: true
 
 notifications:
     email: false
