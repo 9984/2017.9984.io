@@ -23,6 +23,7 @@
 
 .speaker__intro {
     font-size: $font-size-large;
+    margin-bottom: $spacer * 2;
 }
 
 .speaker__content {
@@ -60,7 +61,8 @@
 }
 
 .content--speaker {
-    .speaker__info {
+    .speaker__content,
+    .speaker__links {
         @media ($screen-sm) {
             margin-left: calc(100% / 3 + #{$spacer / 2});
         }
