@@ -2,7 +2,7 @@
 name: Kei Kreutler
 id: kei-kreutler
 company: "Patternist"
-position: "Co-Founder"
+position: "Co-Founder, Patternist; Researcher, unMonastery"
 location: "Berlin, Germany"
 talk_id: my-cool-talk
 
