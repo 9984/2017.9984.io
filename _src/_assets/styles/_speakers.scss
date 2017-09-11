@@ -128,10 +128,6 @@
         &:hover,
         &:focus {
             background: $brand-01;
-
-            .speaker__image {
-                filter: none;
-            }
         }
 
         &:active {
