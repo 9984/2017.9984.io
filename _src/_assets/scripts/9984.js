@@ -2,7 +2,6 @@
 //=include _dnt.js
 //=include _smoothscroll.js
 //=include svg.js/dist/svg.js
-//=include gmaps/gmaps.js
 
 document.addEventListener('DOMContentLoaded', function() {
     //
