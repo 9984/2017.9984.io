@@ -1,0 +1,40 @@
+---
+layout: page
+
+title: "Schedule"
+subtitle: "The 2017 schedule."
+description: "The 2017 schedule."
+---
+
+<div class="schedule">
+    {% for slot in site.data.schedule %}
+        {% if slot.type == "talk" or slot.type == "keynote" %}
+
+            {% assign talk = site.talks | where: "talk_id", slot.talk_id | first %}
+            {% assign speakers = site.speakers | where: "talk_id", slot.talk_id %}
+
+            <div class="schedule_slot">
+                {{ slot.start_time }}
+
+                {% for speaker in speakers %}
+                    {{ speaker.name }}
+                {% endfor %}
+
+                {{ talk.title }}
+            </div>
+
+        {% else %}
+
+            <div class="schedule_slot">
+                {{ slot.start_time }}
+
+                {% if slot.title %}
+                    {{ slot.title }}
+                {% else %}
+                    {{ slot.type | capitalize }}
+                {% endif %}
+            </div>
+
+        {% endif%}
+    {% endfor%}
+</div>

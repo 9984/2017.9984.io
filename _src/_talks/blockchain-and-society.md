@@ -1,7 +1,6 @@
 ---
 talk_id: blockchain-and-society
 type: panel
-time: tba
 title: "Blockchain & Society: Can we build the good without unleashing the bad?"
 ---
 

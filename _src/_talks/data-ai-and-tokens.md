@@ -1,7 +1,6 @@
 ---
 talk_id: data-ai-and-tokens
 type: keynote
-time: tba
 title: "Data, AI, and Tokens"
 ---
 
