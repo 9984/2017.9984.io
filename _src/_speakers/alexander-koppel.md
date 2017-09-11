@@ -7,7 +7,7 @@ location: "Vienna, Austria"
 
 intro: >
     Alexander is CEO of Riddle & Code, the end to end blockchain interface company.
-    
+
 links:
     - text: "@AlexanderKoppel"
       url: "https://twitter.com/AlexanderKoppel"

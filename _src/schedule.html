@@ -13,26 +13,34 @@ description: "The 2017 schedule."
             {% assign talk = site.talks | where: "talk_id", slot.talk_id | first %}
             {% assign speakers = site.speakers | where: "talk_id", slot.talk_id %}
 
-            <div class="schedule_slot">
-                {{ slot.start_time }}
+            {% for speaker in speakers %}
 
-                {% for speaker in speakers %}
-                    {{ speaker.name }}
-                {% endfor %}
+                <a class="schedule__slot schedule__slot--link" href="{{ speaker.url }}">
+                    <div class="schedule__time">
+                        {{ slot.start_time }}
+                    </div>
+                    <div class="schedule__name">
+                        {{ speaker.name }}
+                    </div>
+                    <h1 class="schedule__title">{{ talk.title }}</h1>
+                </a>
 
-                {{ talk.title }}
-            </div>
+            {% endfor %}
 
         {% else %}
 
-            <div class="schedule_slot">
-                {{ slot.start_time }}
+            <div class="schedule__slot">
+                <div class="schedule__time">
+                    {{ slot.start_time }}
+                </div>
 
-                {% if slot.title %}
-                    {{ slot.title }}
-                {% else %}
-                    {{ slot.type | capitalize }}
-                {% endif %}
+                <h1 class="schedule__title">
+                    {% if slot.title %}
+                        {{ slot.title }}
+                    {% else %}
+                        {{ slot.type | capitalize }}
+                    {% endif %}
+                </h1>
             </div>
 
         {% endif%}

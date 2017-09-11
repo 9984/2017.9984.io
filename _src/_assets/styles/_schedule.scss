@@ -1,0 +1,24 @@
+.schedule__slot {
+    padding: $spacer;
+    margin: $spacer 0;
+    background: $brand-03;
+    color: #fff;
+}
+
+.schedule__slot--link {
+    text-decoration: none;
+    display: block;
+    border: .3rem solid $brand-01;
+    transition: .2s ease-out;
+
+    &:hover {
+        background: $brand-01;
+    }
+}
+
+.schedule__title {
+    font-size: $font-size-base;
+    color: #fff;
+    margin: 0;
+    margin-top: $spacer / 2;
+}
