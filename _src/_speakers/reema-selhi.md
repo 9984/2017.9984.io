@@ -1,6 +1,6 @@
 ---
-name: Ali Hussein Kassim
-id: Reema Selhi
+name: Reema Selhi
+id: reema-selhi
 company: "DACS"
 position: "Legal and Policy Manager"
 location: "London, England"
