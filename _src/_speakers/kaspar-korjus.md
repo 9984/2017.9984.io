@@ -13,6 +13,8 @@ intro: >
 links:
     - text: "@kasparkorjus"
       url: "https://twitter.com/kasparkorjus"
+    - text: "LinkedIn"
+      url: "https://www.linkedin.com/in/kasparkorjus/"
 ---
 
 e-Residency is a new fully digital nation for global citizens, built on inclusion, transparency and legitimacy to empower citizens globally and to achieve world-wide digital and financial inclusion.
