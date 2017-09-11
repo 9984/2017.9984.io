@@ -1,5 +1,27 @@
+.schedule {
+    @media ($screen-md) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -($spacer * 5);
+        margin-right: -($spacer * 5);
+    }
+
+    @media ($screen-lg) {
+        margin-left: -($spacer * 7);
+        margin-right: -($spacer * 7);
+    }
+}
+
+.schedule__column {
+    @media ($screen-md) {
+        flex: 1;
+        padding-left: $spacer;
+        padding-right: $spacer;
+    }
+}
+
 .schedule__slot {
-    padding: $spacer;
+    padding: $spacer / $line-height;
     margin: $spacer 0;
     background: $brand-03;
     color: #fff;
@@ -26,8 +48,8 @@
 
 .schedule__type {
     position: absolute;
-    right: $spacer;
-    top: $spacer;
+    right: $spacer / $line-height;
+    top: $spacer / $line-height;
     margin: 0;
     color: #fff;
     opacity: .5;
