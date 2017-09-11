@@ -125,12 +125,18 @@
             margin-left: $spacer;
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
             background: $brand-01;
 
             .speaker__image {
                 filter: none;
             }
+        }
+
+        &:active {
+            border-color: $brand-03;
+            transition: none;
         }
     }
 

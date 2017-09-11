@@ -10,10 +10,28 @@
     display: block;
     border: .3rem solid $brand-01;
     transition: .2s ease-out;
+    position: relative;
 
-    &:hover {
+    &:hover,
+    &:focus {
+        color: #fff;
         background: $brand-01;
     }
+
+    &:active {
+        border-color: $brand-03;
+        transition: none;
+    }
+}
+
+.schedule__type {
+    position: absolute;
+    right: $spacer;
+    top: $spacer;
+    margin: 0;
+    color: #fff;
+    opacity: .5;
+    font-size: $font-size-small;
 }
 
 .schedule__day {
