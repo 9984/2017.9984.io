@@ -2,8 +2,8 @@
 name: George Howard
 id: george-howard
 company: "Music Audience Exchange & TuneCore"
-position: "Co-Founder"
-location: "Greater Boston Area, United States"
+position: " Professor, Berklee College of Music, Brown; Founder, GHS"
+location: "Boston, United States"
 talk_id: my-cool-talk
 
 intro: >
