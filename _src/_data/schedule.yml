@@ -1,36 +1,29 @@
-- type: registration
-  title: "Doors open and registration"
+- title: "Doors open and registration"
   day: "Oct. 5th"
   start_time: "08:30"
 
-- type: welcome
-  title: "Welcome"
+- title: "Welcome"
   day: "Oct. 5th"
   start_time: "09:30"
 
-- type: keynote
-  talk_id: building-the-future-from-our-heads-not-our-hands
+- talk_id: building-the-future-from-our-heads-not-our-hands
   day: "Oct. 5th"
   start_time: "09:45"
 
-- type: talk
-  talk_id: digital-human-rights
+- talk_id: digital-human-rights
   day: "Oct. 5th"
   start_time: "12:15"
 
-- type: keynote
-  talk_id: blockchain-and-society
+- talk_id: blockchain-and-society
   day: "Oct. 5th"
   start_time: "14:40"
 
-- type: keynote
-  talk_id: data-ai-and-tokens
+- talk_id: data-ai-and-tokens
   day: "Oct. 5th"
   start_time: "16:50"
 
 #############################################################
 
-- type: keynote
-  talk_id: artificial-intelligence-and-societies
+- talk_id: artificial-intelligence-and-societies
   day: "Oct. 6th"
   start_time: "10:00"

@@ -16,11 +16,11 @@ description: "The 2017 schedule."
             {% assign slots = day.items | sort: 'start_time' %}
 
             {% for slot in slots %}
-                {% if slot.type == "talk" or slot.type == "keynote" or slot.type == "panel" %}
 
-                    {% assign talk = site.talks | where: "talk_id", slot.talk_id | first %}
-                    {% assign speakers = site.speakers | where: "talk_id", slot.talk_id %}
+                {% assign talk = site.talks | where: "talk_id", slot.talk_id | first %}
+                {% assign speakers = site.speakers | where: "talk_id", slot.talk_id %}
 
+                {% if talk.type == "talk" or talk.type == "keynote" or talk.type == "panel" %}
                     {% for speaker in speakers %}
 
                         <a class="schedule__slot schedule__slot--link" href="{{ speaker.url }}">
@@ -32,7 +32,7 @@ description: "The 2017 schedule."
                             </div>
                             <h1 class="schedule__title">{{ talk.title }}</h1>
                             <h3 class="schedule__type">
-                                {{ slot.type }}
+                                {{ talk.type }}
                             </h3>
                         </a>
 
