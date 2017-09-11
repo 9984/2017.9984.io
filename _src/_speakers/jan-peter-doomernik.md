@@ -6,8 +6,8 @@ position: "Senior Business Developer"
 location: "Den Bosch, Netherlands"
 
 intro: >
-    Jan-Peter Doomernik works as Senior Business Developer for the biggest grid company in the Netherlands, Enexis. 
-    
+    Jan-Peter Doomernik works as Senior Business Developer for the biggest grid company in the Netherlands, Enexis.
+
 links:
     - text: "@blablablanogwat"
       url: "https://twitter.com/blablablanogwat"

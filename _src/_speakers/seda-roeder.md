@@ -1,13 +1,13 @@
 ---
 name: Seda Röder
-id: seda-röder
+id: seda-roeder
 company: "Sonophilia"
 position: "Founder"
 location: "Salzburg, Austria"
 
 intro: >
     Seda Röder aka “the piano hacker” is an adventurous musician devoted to spreading creativity in society and organizations.
-    
+
 links:
     - text: "LinkedIn"
       url: "https://www.linkedin.com/in/sedaroder/"
