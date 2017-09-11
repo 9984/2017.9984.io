@@ -25,7 +25,8 @@
     "ie >= 10"
   ],
   "dependencies": {
-    "svg.js": "^2.6.3"
+    "svg.js": "^2.6.3",
+    "smooth-scroll": "^12.1.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
