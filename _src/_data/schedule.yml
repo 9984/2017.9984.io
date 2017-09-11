@@ -1,17 +1,17 @@
 - type: registration
   title: "Doors open and registration"
   day: "Oct. 5th"
-  start_time: "8:30"
+  start_time: "08:30"
 
 - type: welcome
   title: "Welcome"
   day: "Oct. 5th"
-  start_time: "9:30"
+  start_time: "09:30"
 
 - type: keynote
   talk_id: building-the-future-from-our-heads-not-our-hands
   day: "Oct. 5th"
-  start_time: "9:45"
+  start_time: "09:45"
 
 - type: talk
   talk_id: digital-human-rights

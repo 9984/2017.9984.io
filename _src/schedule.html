@@ -7,42 +7,50 @@ description: "The 2017 schedule."
 ---
 
 <div class="schedule">
-    {% for slot in site.data.schedule %}
-        {% if slot.type == "talk" or slot.type == "keynote" %}
+    {% assign schedule = site.data.schedule | group_by: 'day' %}
 
-            {% assign talk = site.talks | where: "talk_id", slot.talk_id | first %}
-            {% assign speakers = site.speakers | where: "talk_id", slot.talk_id %}
+    {% for day in schedule %}
+        <h1 class="schedule__day">{{ day.name }}</h1>
 
-            {% for speaker in speakers %}
+        {% assign slots = day.items | sort: 'start_time' %}
 
-                <a class="schedule__slot schedule__slot--link" href="{{ speaker.url }}">
+        {% for slot in slots %}
+            {% if slot.type == "talk" or slot.type == "keynote" %}
+
+                {% assign talk = site.talks | where: "talk_id", slot.talk_id | first %}
+                {% assign speakers = site.speakers | where: "talk_id", slot.talk_id %}
+
+                {% for speaker in speakers %}
+
+                    <a class="schedule__slot schedule__slot--link" href="{{ speaker.url }}">
+                        <div class="schedule__time">
+                            {{ slot.start_time }}
+                        </div>
+                        <div class="schedule__name">
+                            {{ speaker.name }}
+                        </div>
+                        <h1 class="schedule__title">{{ talk.title }}</h1>
+                    </a>
+
+                {% endfor %}
+
+            {% else %}
+
+                <div class="schedule__slot">
                     <div class="schedule__time">
                         {{ slot.start_time }}
                     </div>
-                    <div class="schedule__name">
-                        {{ speaker.name }}
-                    </div>
-                    <h1 class="schedule__title">{{ talk.title }}</h1>
-                </a>
 
-            {% endfor %}
-
-        {% else %}
-
-            <div class="schedule__slot">
-                <div class="schedule__time">
-                    {{ slot.start_time }}
+                    <h1 class="schedule__title">
+                        {% if slot.title %}
+                            {{ slot.title }}
+                        {% else %}
+                            {{ slot.type | capitalize }}
+                        {% endif %}
+                    </h1>
                 </div>
 
-                <h1 class="schedule__title">
-                    {% if slot.title %}
-                        {{ slot.title }}
-                    {% else %}
-                        {{ slot.type | capitalize }}
-                    {% endif %}
-                </h1>
-            </div>
-
-        {% endif%}
-    {% endfor%}
+            {% endif%}
+        {% endfor%}
+    {% endfor %}
 </div>
