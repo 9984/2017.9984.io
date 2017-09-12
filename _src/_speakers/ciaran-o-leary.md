@@ -1,12 +1,12 @@
 ---
-name: Ciarán O'Leary
-id: ciarán-o'leary
+name: CiarÁn O'Leary
+id: ciaran-o-leary
 company: "BlueYard Capital"
 position: "General Partner"
 location: "Berlin, Germany"
 
 intro: >
-    Ciarán is a General Partner at BlueYard Capital, an early stage VC firm focusing on the decentralization of markets, empowerment of individuals and the liberation of data. 
+    Ciarán is a General Partner at BlueYard Capital, an early stage VC firm focusing on the decentralization of markets, empowerment of individuals and the liberation of data.
 
 links:
     - text: "@ciaranoleary"
