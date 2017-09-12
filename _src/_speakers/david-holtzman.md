@@ -1,12 +1,12 @@
 ---
 name: David Holtzman
 id: david-holtzman
-position: "Technical Advisor & Architect of Modern DNS"
+position: "Technical Advisor, IPDB; Architect of Modern DNS"
 location: ""
 talk_id: building-the-future-from-our-heads-not-our-hands
 
 intro: >
-    David Holtzman ran the Domain Name System and other critical Internet infrastructure.  He was CTO/CEO for several technology companies and was a CTO and a CSO  for two US presidential campaigns.
+    David Holtzman is an information technology security expert, educator and activist.
 
 links:
     - text: "@theglobalpov"
@@ -15,4 +15,4 @@ links:
       url: "https://globalpov.com"
 ---
 
-He was a submariner, cryptographer and Russian linguist working for the US Naval Security Group and NSA.  He is the author of Privacy Lost and Surviving Identity Theft and now writes techno thrillers.  He travels extensively, has hiked all seven continents, and most recently ridden to the Eagle Hunter festival in Mongolia and dog-sledded to the Ice Hotel in Lapland.
+He started his career as a cryptographic analyst, military codebreaker, U.S. Naval Security Group submariner, and Soviet Manned Space Program analyst. Holtzman is an early-stage internet pioneer. He was the CTO at Network Solutions when it managed the domain name system, where he oversaw the explosive growth of the commercial internet to more than 20 million domain names by the late 1990s. He is the author of Privacy Lost: How Technology is Endangering Your Privacy, and a regular commentator for major news media, including Bloomberg Television, BBC, CNN, The New York Times, Business Week, and The Washington Post.
