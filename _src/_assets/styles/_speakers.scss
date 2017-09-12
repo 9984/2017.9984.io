@@ -112,7 +112,8 @@
         text-decoration: none;
         background: $brand-03;
         color: #fff;
-        padding: 1rem;
+        border: .15rem solid $brand-01;
+        padding: $spacer;
         transition: .15s ease-out;
         font-size: $font-size-small;
         margin-bottom: $spacer;
@@ -124,12 +125,14 @@
             margin-left: $spacer;
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
             background: $brand-01;
+        }
 
-            .speaker__image {
-                filter: none;
-            }
+        &:active {
+            border-color: $brand-03;
+            transition: none;
         }
     }
 

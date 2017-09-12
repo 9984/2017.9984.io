@@ -4,6 +4,7 @@ layout: base
 
 {% assign speaker = page %}
 {% assign talk = site.talks | where: 'talk_id', speaker.talk_id | first %}
+{% assign schedule = site.data.schedule | where: 'talk_id', speaker.talk_id | first %}
 
 {% include menu.html %}
 
@@ -50,16 +51,22 @@ layout: base
             </div>
 
             {% if talk %}
-            <aside class="speaker__talk">
-                <h2 class="speaker__talk__title">{{ talk.type }} <em class="divider--9984">>></em> 9984</h2>
-                <div class="talk">
-                    <h3 class="talk__title">{{ talk.title }}</h3>
-                    <div class="talk__time">Time: {{ talk.time }}</div>
-                    <div class="talk__content">
-                        {{ talk.content | markdownify }}
+                <aside class="speaker__talk">
+                    <h2 class="speaker__talk__title">{{ talk.type }} <em class="divider--9984">>></em> 9984</h2>
+                    <div class="talk">
+                        <h3 class="talk__title">{{ talk.title }}</h3>
+                        <div class="talk__time">Time:
+                            {% if schedule %}
+                                {{ schedule.day }}, {{ schedule.start_time }}
+                            {% else %}
+                                tba
+                            {% endif %}
+                        </div>
+                        <div class="talk__content">
+                            {{ talk.content | markdownify }}
+                        </div>
                     </div>
-                </div>
-            </aside>
+                </aside>
             {% endif %}
         </article>
 

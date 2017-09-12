@@ -1,6 +1,6 @@
 
 //=include _dnt.js
-//=include _smoothscroll.js
+//=include smooth-scroll/dist/js/smooth-scroll.js
 //=include svg.js/dist/svg.js
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -14,6 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
             links[i].target = '_blank';
         }
     }
+
+
+    //
+    // init smooth scroll
+    //
+    const scroll = new SmoothScroll('a[data-scroll]', {
+        easing: 'easeOutQuint'
+    })
 
 
     //

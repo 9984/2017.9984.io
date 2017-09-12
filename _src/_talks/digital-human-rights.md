@@ -2,7 +2,6 @@
 talk_id: digital-human-rights
 type: talk
 title: Digital Human Rights - The right to encryption & self sovereign data
-time: tba
 ---
 
 The advent of mass market computers and the Internet created a new operating system for a digital era. Given the rising amount of public data about our day to day interactions, it might be time to redefine the human right charta and adjust it to the realities of the data driven world powered by AI, blockchain and IoT.

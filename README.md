@@ -22,8 +22,9 @@
   - [Special pages](#special-pages)
     - [Front page](#front-page)
   - [Speakers & Talks](#speakers--talks)
-    - [Adding / editing speakers & talks](#adding--editing-speakers--talks)
-    - [Add new content through GitHub](#add-new-content-through-github)
+    - [Add new speaker or talk through GitHub](#add-new-speaker-or-talk-through-github)
+  - [Schedule](#schedule)
+    - [Add new slot to schedule through GitHub](#add-new-slot-to-schedule-through-github)
 - [Development](#development)
   - [Install dependencies](#install-dependencies)
   - [Development build](#development-build)
@@ -73,11 +74,7 @@ Content for all sections on front page is coming from a data file:
 
 ## Speakers & Talks
 
-All speakers data is coming from individual files in [`_src/_speakers`](_src/_speakers) & [`_src/_talks`](_src/_talks)
-
-### Adding / editing speakers & talks
-
-Each content item is represented as a Markdown file with YAML at the top. The data should look something like this:
+All speakers data is coming from individual files in [`_src/_speakers`](_src/_speakers) & [`_src/_talks`](_src/_talks). Each content item is represented as a Markdown file with YAML at the top. providing metadata. The data should look something like this:
 
 ```
 ---
@@ -89,7 +86,7 @@ other_property:
 ---
 ```
 
-### Add new content through GitHub
+### Add new speaker or talk through GitHub
 
 1. Click into the appropriate directory ([/_src/_speakers](_src/_speakers), [/_src/_talks](_src/_talks)
 1. Copy the data from an existing `.md` file
@@ -98,6 +95,28 @@ other_property:
 1. Edit to your heart’s content!
 1. When finished, fill in a commit description and select `Create a new branch for this commit and start a pull request`.
 1. Wait to see if the created pull request passes the build. If it does, click merge and your changes will be live
+
+## Schedule
+
+The schedule is being constructed automatically based on a combination of:
+
+- `_src/_data/schedule.yml` (for exact time and in-between blocks)
+- `_src/_talks/` files (for title & type)
+- `_src/_speakers/` files (for speaker name & speaker page link)
+
+Slots in the schedule file are automatically grouped by `day`, then ordered by `start_time`. The actual order of slots in the schedule file doesn't matter so no need to reorder items when times change. The time set as `start_time` will be output within the talk block on speakers page too. Only when a slot has a `talk_id`, it will be linked to respective speakers page with the talk description.
+
+Note that all spacing and indentation in YAML files matter. So make sure to always keep the same indentation as existing items in there.
+
+### Add new slot to schedule through GitHub
+
+1. Find the [`_src/_data/schedule.yml`](_src/_data/schedule.yml) file.
+1. Hit the edit pencil icon to open edit view.
+1. Copy and paste an existing slot and modify its `talk_id`, `day` & `start_time`.
+1. When finished, fill in a commit description and select `Create a new branch for this commit and start a pull request`.
+1. Wait to see if the created pull request passes the build. If it does, click merge and your changes will be live.
+1. You can also do more edits and commit to the same branch to build up your pull request.
+
 
 # Development
 
