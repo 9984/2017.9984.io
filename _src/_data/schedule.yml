@@ -10,20 +10,68 @@
   day: "Oct. 5th"
   start_time: "09:45"
 
+- title: "Break"
+  day: "Oct. 5th"
+  start_time: "11:15"
+
 - talk_id: digital-human-rights
   day: "Oct. 5th"
   start_time: "12:15"
+
+- title: "Lunch"
+  day: "Oct. 5th"
+  start_time: "13:10"
 
 - talk_id: blockchain-and-society
   day: "Oct. 5th"
   start_time: "14:40"
 
+- title: "Break"
+  day: "Oct. 5th"
+  start_time: "15:40"
+
 - talk_id: data-ai-and-tokens
   day: "Oct. 5th"
   start_time: "16:50"
 
+- title: "Day closing"
+  day: "Oct. 5th"
+  start_time: "17:20"
+
+- title: "Drinks"
+  day: "Oct. 5th"
+  start_time: "17:30"
+
 #############################################################
+
+- title: "Doors open and registration"
+  day: "Oct. 6th"
+  start_time: "09:00"
+
+- title: "Welcome"
+  day: "Oct. 6th"
+  start_time: "09:35"
 
 - talk_id: artificial-intelligence-and-societies
   day: "Oct. 6th"
   start_time: "10:00"
+
+- title: "Break"
+  day: "Oct. 6th"
+  start_time: "11:05"
+
+- title: "Lunch"
+  day: "Oct. 6th"
+  start_time: "12:55"
+
+- title: "Break"
+  day: "Oct. 6th"
+  start_time: "15:25"
+
+- title: "Closing"
+  day: "Oct. 6th"
+  start_time: "16:50"
+
+- title: "Drinks"
+  day: "Oct. 6th"
+  start_time: "17:00"
