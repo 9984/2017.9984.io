@@ -58,6 +58,15 @@
 
 .schedule__day {
     margin-top: $spacer * 2;
+    font-size: $font-size-large;
+
+    .schedule__column:first-child &:before {
+        content: 'Thursday, ';
+    }
+
+    .schedule__column:last-child &:before {
+        content: 'Friday, ';
+    }
 }
 
 .schedule__title {
