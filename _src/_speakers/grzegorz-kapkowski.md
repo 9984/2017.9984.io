@@ -4,7 +4,7 @@ id: grzegorz-kapkowski
 company: "Userfeeds"
 position: "CTO"
 location: "Masovia, Poland"
-talk_id: my-cool-talk
+talk_id: new-perspective-on-the-worlds-information
 
 intro: >
     Grzegorz Kapkowski is a software developer and the CTO of Userfeeds.
