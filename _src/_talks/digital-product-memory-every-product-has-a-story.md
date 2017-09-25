@@ -1,5 +1,6 @@
 ---
 talk_id: digital-product-memory-every-product-has-a-story
+type: talk
 title: Digital Product Memory: Every Product Has a Story
 ---
 
