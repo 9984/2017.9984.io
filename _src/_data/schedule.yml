@@ -10,31 +10,71 @@
   day: "Oct. 5th"
   start_time: "09:40"
 
+- talk_id: digital-product-memory-every-product-has-a-story
+  day: "Oct. 5th"
+  start_time: "10:10"
+  
+- talk_id: artist-rights
+  day: "Oct. 5th"
+  start_time: "10:25"
+  
+- talk_id: opportunities-for-music
+  day: "Oct. 5th"
+  start_time: "10:40"
+  
+- talk_id: decentralized-licenses-server
+  day: "Oct. 5th"
+  start_time: "10:55"
+  
 - title: "Break"
   day: "Oct. 5th"
   start_time: "11:10"
 
+- talk_id: not-so-secret-future
+  day: "Oct. 5th"
+  start_time: "11:40"
+  
 - talk_id: digital-human-rights
   day: "Oct. 5th"
   start_time: "12:10"
+
+- talk_id: creators-first
+  day: "Oct. 5th"
+  start_time: "12:30"
 
 - title: "Lunch"
   day: "Oct. 5th"
   start_time: "12:45"
 
+- talk_id: blockchain-ecologoy-state-and-anarchy
+  day: "Oct. 5th"
+  start_time: "14:00"
+  
 - talk_id: blockchain-and-society
   day: "Oct. 5th"
-  start_time: "14:30"
-
+  start_time: "14:00"
+  
 - title: "Break"
   day: "Oct. 5th"
   start_time: "15:30"
 
+- talk_id: blockchain-capital-markets
+  day: "Oct. 5th"
+  start_time: "16:00"
+  
+ - talk_id: real-world-scenarios-using-bigchaindb-tymlez
+  day: "Oct. 5th"
+  start_time: "16:15"
+  
+ - talk_id: blockchain-distributed-ledgers-future-of-mobility
+  day: "Oct. 5th"
+  start_time: "16:30"
+  
 - talk_id: data-ai-and-tokens
   day: "Oct. 5th"
   start_time: "16:50"
 
-- title: "Day closing"
+- title: "Closing"
   day: "Oct. 5th"
   start_time: "17:20"
 
@@ -52,21 +92,57 @@
   day: "Oct. 6th"
   start_time: "09:30"
 
+- talk_id: art-of-innovation
+  day: "Oct. 6th"
+  start_time: "09:35"
+  
 - talk_id: artificial-intelligence-and-societies
   day: "Oct. 6th"
   start_time: "09:55"
+  
+- talk_id: why-are-we-building-connected-self-owned-machines
+  day: "Oct. 6th"
+  start_time: "10:30"
 
 - title: "Break"
   day: "Oct. 6th"
   start_time: "11:00"
+  
+- talk_id: blockchains-and-businesses
+  day: "Oct. 6th"
+  start_time: "12:00"
 
 - title: "Lunch"
   day: "Oct. 6th"
   start_time: "13:00"
 
+- talk_id: future-nation-states
+  day: "Oct. 6th"
+  start_time: "14:00"
+  
+- talk_id: resilient-identity-services
+  day: "Oct. 6th"
+  start_time: "14:30"
+  
+- talk_id: envisioning-the-future-personal-proof-credentials
+  day: "Oct. 6th"
+  start_time: "14:45"
+  
+- talk_id: new-perspective-on-the-worlds-information
+  day: "Oct. 6th"
+  start_time: "15:00"
+  
+- talk_id: digital-identities-on-the-blockchain
+  day: "Oct. 6th"
+  start_time: "15:15"
+  
 - title: "Break"
   day: "Oct. 6th"
   start_time: "15:30"
+  
+- talk_id: introducing-the-decentralized-music-society
+  day: "Oct. 6th"
+  start_time: "16:30"
 
 - title: "Closing"
   day: "Oct. 6th"
