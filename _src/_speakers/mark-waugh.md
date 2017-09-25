@@ -4,7 +4,7 @@ id: mark-waugh
 company: "DACS"
 position: "Head of Research and Innovation"
 location: "London, England"
-talk_id: my-cool-talk
+talk_id: artists-rights
 
 intro: >
      Mark is the Head of Research and Innovation at DACS and has substantial consultancy experience across the private and public sector in the visual arts. 
