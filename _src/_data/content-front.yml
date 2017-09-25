@@ -92,3 +92,10 @@ wrigleygang:
               primary: true
             - title: Learn More
               link: https://www.bigchaindb.com
+
+
+# -----------------
+# Section: Partners
+# -----------------
+partners:
+    title: "Partners"

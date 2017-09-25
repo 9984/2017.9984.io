@@ -135,3 +135,27 @@
         margin-left: $spacer;
     }
 }
+
+.section--partners {
+    .grid {
+        @media ($screen-sm) {
+            display: flex;
+            align-items: center;
+            margin-left: -2rem;
+        }
+    }
+
+    .grid__col {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        @media ($screen-sm) {
+            flex: 0 0 (100%/3);
+            margin-left: 2rem;
+        }
+    }
+
+    a {
+        display: block;
+    }
+}
