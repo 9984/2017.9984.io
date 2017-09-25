@@ -4,7 +4,7 @@ id: frank-bartels
 company: "license.rocks"
 position: "Founder & Managing Director"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: decentralized-licenses-server
 
 intro: >
     Frank Bartels has more than 15 years experience in IT and has helped dozens of leading companies such as Siemens, BASF, Bertelsmann, Deutsche Post or T-Systems as consultant or project manager in IT transformation.
