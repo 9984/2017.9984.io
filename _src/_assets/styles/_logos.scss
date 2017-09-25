@@ -47,3 +47,22 @@
 .logo--ipdb {
     fill: #074354;
 }
+
+//
+// Partner logos
+//
+.logo-partner {
+    width: 200px;
+    height: 70px;
+    max-width: 100%;
+    fill: $brand-06;
+    transition: .15s ease-out;
+
+    a:hover & {
+        fill: $brand-01;
+    }
+}
+
+.logo-partner--gtec {
+    width: 235px;
+}
