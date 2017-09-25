@@ -146,16 +146,18 @@
     }
 
     .grid__col {
-        margin-top: 2rem;
+        margin-top: $spacer;
         margin-bottom: 2rem;
 
         @media ($screen-sm) {
             flex: 0 0 (100%/3);
             margin-left: 2rem;
+            margin-bottom: 0;
         }
     }
 
     a {
         display: block;
+        transition: .15s ease-out;
     }
 }
