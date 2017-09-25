@@ -4,7 +4,7 @@ id: george-howard
 company: "Music Audience Exchange & TuneCore"
 position: " Professor, Berklee College of Music, Brown; Founder, GHS"
 location: "Boston, United States"
-talk_id: my-cool-talk
+talk_id: introducing-the-decentralized-music-society
 
 intro: >
     George Howard is the co-founder of Music Audience Exchange, a team of digital marketers, engineers, and music lovers, using technology to redefine the fundamental structure of brand-artist relationships.
