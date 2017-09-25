@@ -4,7 +4,7 @@ id: kaspar-korjus
 company: "Enterprise Estonia"
 position: "e-Residency Managing Director"
 location: "Tallinn, Estonia"
-talk_id: my-cool-talk
+talk_id: future-nation-states
 featured: true
 
 intro: >
