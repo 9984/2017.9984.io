@@ -4,6 +4,7 @@ id: aleksander-nowak
 company: "BlockEx"
 position: "CIO"
 location: "London, England"
+talk_id: blockchain-capital-markets
 
 intro: >
     Alexsander is the CIO of BlockEx, the digital asset exchange platform.
