@@ -4,7 +4,7 @@ id: masha-mcconaghy
 company: "BigchainDB"
 position: "Founder & CMO"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: creators-first
 featured: true
 
 intro: >
