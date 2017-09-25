@@ -4,7 +4,7 @@ id: michael-reh
 company: "TYMLEZ"
 position: "CEO & Co-Founder"
 location: "Frankfurt, Germany"
-talk_id: my-cool-talk
+talk_id: real-world-scenarios-using-bigchaindb-tymlez
 
 intro: >
     Michael Reh has had a dynamic leadership career, with more than 25 years of experience and a proven track record in the software industry.
