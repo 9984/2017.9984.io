@@ -4,7 +4,7 @@ id: chris-ballinger
 company: "Toyota Research Institute"
 position: "CFO and Director of Mobility Services"
 location: "Los Altos, United States"
-talk_id: my-cool-talk
+talk_id: blockchain-distributed-ledgers-future-of-mobility
 
 intro: >
     Chris Ballinger joined the Toyota Research Institute (TRI) in April 2017 following 14 years at Toyota Financial Services (TFS).
