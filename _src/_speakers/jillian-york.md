@@ -4,7 +4,7 @@ id: jillian-york
 company: "EFF"
 position: "Director for International Freedom of Expression"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: not-so-secret-future
 featured: true
 
 intro: >
