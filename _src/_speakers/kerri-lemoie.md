@@ -4,7 +4,7 @@ id: kerri-lemoie
 company: "OpenWorks Group"
 position: "CTO and Founder"
 location: "Durham, United States"
-talk_id: my-cool-talk
+talk_id: envisioning-the-future-personal-proof-credentials
 
 intro: >
     Kerri Lemoie is the founder and CTO of OpenWorks Group, a technology services company specializing in open source digital credentials for education. 
