@@ -4,6 +4,7 @@ id: jan-peter-doomernik
 company: "Enexis"
 position: "Senior Business Developer"
 location: "Den Bosch, Netherlands"
+talk_id: why-are-we-building-connected-self-owned-machines
 
 intro: >
     Jan-Peter Doomernik works as Senior Business Developer for the biggest grid company in the Netherlands, Enexis.
