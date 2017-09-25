@@ -18,6 +18,9 @@ layout: base
                     {{ speaker.name }}
                 </h1>
                 <div class="speaker__company">{{ speaker.position }}{% if speaker.company %}, {{ speaker.company }}{% endif %}</div>
+                {% if speaker.position2 %}
+                    <div class="speaker__company">{{ speaker.position2 }}{% if speaker.company2 %}, {{ speaker.company2 }}{% endif %}</div>
+                {% endif %}
                 <div class="speaker__location">{{ speaker.location }}</div>
             </div>
         </div>

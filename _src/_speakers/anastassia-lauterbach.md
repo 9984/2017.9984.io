@@ -3,6 +3,8 @@ name: Anastassia Lauterbach
 id: anastassia-lauterbach
 company: "NED Dun & Bradstreet"
 position: "Director"
+company2: "1AU-Ventures"
+position2: "CEO"
 location: "Bonn, Germany"
 talk_id: artificial-intelligence-and-societies
 featured: true
