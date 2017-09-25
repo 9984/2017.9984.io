@@ -137,6 +137,12 @@
 }
 
 .section--partners {
+    text-align: center;
+
+    @media ($screen-sm) {
+        text-align: left;
+    }
+
     .grid {
         @media ($screen-sm) {
             display: flex;
