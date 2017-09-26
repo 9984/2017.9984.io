@@ -4,7 +4,7 @@ id: peter-harris
 company: "Resonate"
 position: "Founder"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: opportunities-for-music
 featured: true
 
 intro: >
