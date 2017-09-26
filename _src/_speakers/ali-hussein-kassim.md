@@ -4,7 +4,7 @@ id: ali-hussein-kassim
 company: "Hussein & Associates"
 position: "Managing Partner"
 location: "Nairobi, Kenya"
-talk_id: my-cool-talk
+talk_id: blockchain-and-society
 featured: true
 
 intro: >
