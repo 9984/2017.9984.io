@@ -1,5 +1,5 @@
 ---
-name: CiarÁn O'Leary
+name: Ciarán O'Leary
 id: ciaran-o-leary
 company: "BlueYard Capital"
 position: "General Partner"
