@@ -4,7 +4,7 @@ id: kei-kreutler
 company: "Patternist"
 position: "Co-Founder, Patternist; Researcher, unMonastery"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: blockchain-and-society
 
 intro: >
    Kei Kreutler is a developer, designer, and researcher interested in how cultural narratives of technologies shape their use, across such diverse fields as satellite observation and biotechnology.
