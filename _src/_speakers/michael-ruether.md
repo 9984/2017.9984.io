@@ -4,7 +4,7 @@ id: michael-ruether
 company: "Machine Economy Innovation Lighthouse, innogy SE"
 position: "Project Manager"
 location: "Essen, Germany"
-talk_id: my-cool-talk
+talk_id: digital-product-memory-every-product-has-a-story
 
 intro: >
    Dr. Michael Rüther is project manager for the Machine Economy Innovation Lighthouse at innogy SE, and is driving the Twin of Things project.
