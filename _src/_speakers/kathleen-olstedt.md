@@ -4,7 +4,7 @@ id: kathleen-olstedt
 company: "Daimler FleetBoard GmbH"
 position: "Business Development & Cooperation Manager"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: blockchains-and-businesses
 featured: true
 
 intro: >
