@@ -4,7 +4,7 @@ id: thor-karlsson
 company: "Authenteq"
 position: "Lead Backend Developer"
 location: "Reykjavik, Iceland Nairobi"
-talk_id: my-cool-talk
+talk_id: digital-identities-on-the-blockchain
 
 intro: >
     Thor is the lead backend developer at Authenteq, a privacy tool and identity verification platform for online services.
