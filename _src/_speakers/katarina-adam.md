@@ -4,7 +4,7 @@ id: katarina-adam
 company: "HTW Berlin"
 position: "Professor"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: blockchains-and-businesses
 
 intro: >
     Prof. Dr.-Ing. Katarina Adam is a professor at the HTW Berlin in the Department of Business Administration and Engineering. She lectures regarding Corporate Finance, Accounting and Controlling.
