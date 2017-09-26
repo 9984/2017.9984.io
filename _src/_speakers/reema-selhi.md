@@ -4,7 +4,7 @@ id: reema-selhi
 company: "DACS"
 position: "Legal and Policy Manager"
 location: "London, England"
-talk_id: my-cool-talk
+talk_id: artists-rights
 
 intro: >
     Reema is the Legal and Policy Manager at DACS and an expert in the field of copyright for visual arts.
