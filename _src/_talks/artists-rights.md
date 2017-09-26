@@ -1,5 +1,5 @@
 ---
-talk_id: artist-rights
+talk_id: artists-rights
 type: talk
 title: Artists Rights in the Era of the Distributed Ledger
 ---

@@ -7,7 +7,7 @@ location: "London, England"
 talk_id: artists-rights
 
 intro: >
-     Mark is the Head of Research and Innovation at DACS and has substantial consultancy experience across the private and public sector in the visual arts. 
+     Mark is the Head of Research and Innovation at DACS and has substantial consultancy experience across the private and public sector in the visual arts.
 
 links:
     - text: "LinkedIn"
