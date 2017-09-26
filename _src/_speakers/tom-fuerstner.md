@@ -4,6 +4,7 @@ id: tom-fuerstner
 company: "Riddle & Code"
 position: "CTO"
 location: "Vienna, Austria"
+talk_id: resilient-identity-services
 
 intro: >
     Tom Fuerstner is a research scientist and university professor with over 30 years of experience in formal logic, social economy theory and digital art.
