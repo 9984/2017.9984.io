@@ -4,7 +4,7 @@ id: nina-luisa-siedler
 company: "DWF"
 position: "Partner"
 location: "Berlin, Germany"
-talk_id: my-cool-talk
+talk_id: blockchain-and-society
 
 intro: >
     Nina-Luisa Siedler is partner of the international law firm DWF and has 18 years of experience in advising on financing transactions. She is used to managing complex transactions and cooperating seamlessly with auditors, tax advisors, software engineers and other parties involved.
