@@ -140,9 +140,17 @@
   day: "Oct. 6th"
   start_time: "15:30"
 
+- talk_id: ipdb-designing-blockchain-governance
+  day: "Oct. 6th"
+  start_time: "16:00"
+
 - talk_id: introducing-the-decentralized-music-society
   day: "Oct. 6th"
   start_time: "16:30"
+  
+- talk_id: bigchaindb-whats-next
+  day: "Oct. 6th"
+  start_time: "17:10"
 
 - title: "Closing"
   day: "Oct. 6th"
