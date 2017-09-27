@@ -1,6 +1,6 @@
 ---
 talk_id: ipdb-designing-blockchain-governance
-type: talk
+type: keynote
 title: "IPDB: Designing Blockchain Governance"
 ---
 
