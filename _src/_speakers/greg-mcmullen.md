@@ -4,7 +4,7 @@ id: greg-mcmullen
 company: "IPDB Foundation"
 position: "Executive Director"
 location: "Berlin, Germany"
-talk_id: blockchain-and-society
+talk_id: ipdb-designing-blockchain-governance
 
 intro: >
     Greg McMullen is a lawyer, internet advocate, and Chief Policy Officer at [BigchainDB](https://www.bigchaindb.com), where he built the framework for the [IPDB Foundation](https://ipdb.io) and helped bring together its founding caretakers. He is a leading member of the COALA IP working group and co-authored the COALA IP specification and policy paper.
