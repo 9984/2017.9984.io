@@ -4,6 +4,7 @@ id: julie-maupin
 company: "Max Planck Institute"
 position: "Senior Researcher, Max Planck Institute"
 location: "Frankfurt, Germany"
+talk_id: going-the-last-mile-connecting-machines-connect-humans
 
 intro: >
     Dr. Julie Maupin, JD/MA, B.Sc., is a leading expert on the legal, regulatory, and economic policy dimensions of blockchains and other distributed ledger technologies. 
