@@ -4,6 +4,7 @@ id: constance-choi
 company: "COALA Foundation"
 position: "Co-Founder & Director"
 location: "San Francisco, United States"
+talk_id: on-building-global-blockchain-community
 
 intro: >
     Constance Choi is the co-founder and Director of COALA, an international multidisciplinary collaborative research and development initiative on blockchain technologies, smart contracts and decentralized autonomous applications. 
