@@ -7,7 +7,7 @@ location: "London, England"
 talk_id: blockchain-capital-markets
 
 intro: >
-    Alexsander is the CIO of BlockEx, the digital asset exchange platform.
+    Aleksander is the CIO of BlockEx, the digital asset exchange platform.
 
 links:
     - text: "LinkedIn"
