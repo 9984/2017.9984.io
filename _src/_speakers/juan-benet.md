@@ -4,7 +4,7 @@ id: juan-benet
 company: "Protocol Labs"
 position: "CEO"
 location: "Palo Alto, United States"
-talk_id: my-cool-talk
+talk_id: need-for-decentralized-data
 featured: true
 
 intro: >
