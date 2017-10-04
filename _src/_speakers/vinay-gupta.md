@@ -4,7 +4,7 @@ id: vinay-gupta
 company: "Hexayurt.Capital"
 position: "Founder"
 location: "London, United Kingdom"
-talk_id: blockchain-ecologoy-state-and-anarchy
+talk_id: blockchain-ecology-state-and-anarchy
 featured: true
 
 intro: >
