@@ -1,5 +1,5 @@
 ---
-name: Tim Daubenschuetz
+name: Tim Daubenschütz
 id: tim-daubenschuetz
 company: "BigchainDB"
 position: "Product Manager"
@@ -7,7 +7,7 @@ location: "Berlin, Germany"
 talk_id: bigchaindb-whats-next
 
 intro: >
-    Tim Daubenschuetz is the product manager at BigchainDB and co-author of the COALA IP specification.
+    Tim Daubenschütz is the product manager at BigchainDB and co-author of the COALA IP specification.
 
 links:
     - text: "@TimDaub"
