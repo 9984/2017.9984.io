@@ -1,5 +1,5 @@
 ---
-name: Michael RÜther
+name: Michael Rüther 
 id: michael-ruether
 company: "Machine Economy Innovation Lighthouse, innogy SE"
 position: "Project Manager"
