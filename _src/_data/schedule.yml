@@ -38,7 +38,7 @@
   day: "Oct. 5th"
   start_time: "12:10"
 
-- talk_id: creators-first
+- talk_id: introducing-the-industry-commons
   day: "Oct. 5th"
   start_time: "12:30"
 
@@ -103,10 +103,10 @@
 - talk_id: why-are-we-building-connected-self-owned-machines
   day: "Oct. 6th"
   start_time: "10:30"
-  
+
 - talk_id: going-the-last-mile-connecting-machines-connect-humans
   day: "Oct. 6th"
-  start_time: "10:45" 
+  start_time: "10:45"
 
 - title: "Break"
   day: "Oct. 6th"
@@ -151,7 +151,7 @@
 - talk_id: introducing-the-decentralized-music-society
   day: "Oct. 6th"
   start_time: "16:30"
-  
+
 - talk_id: bigchaindb-whats-next
   day: "Oct. 6th"
   start_time: "17:10"
