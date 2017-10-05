@@ -2,7 +2,7 @@
 name: Julie Maupin
 id: julie-maupin
 company: "Max Planck Institute"
-position: "Senior Researcher, Max Planck Institute"
+position: "Senior Researcher Max Planck Institute, Advisor to IOTA Foundation"
 location: "Frankfurt, Germany"
 talk_id: going-the-last-mile-connecting-machines-connect-humans
 
