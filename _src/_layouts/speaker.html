@@ -53,7 +53,7 @@ layout: base
                 </ul>
             </div>
 
-            {% if talk %}
+             {% if talk %}
                 <aside class="speaker__talk">
                     <h2 class="speaker__talk__title">{{ talk.type }} <em class="divider--9984">>></em> 9984</h2>
                     <div class="talk">
@@ -65,6 +65,13 @@ layout: base
                                 tba
                             {% endif %}
                         </div>
+                        {% if talk.youtube_id %}
+                            <div class="talk__video">
+                                <figure class="iframe-container">
+                                    <iframe width="640" height="480" src="https://www.youtube.com/embed/{{ talk.youtube_id }}" frameborder="0" allowfullscreen></iframe>
+                                </figure>
+                            </div>
+                        {% endif %}
                         <div class="talk__content">
                             {{ talk.content | markdownify }}
                         </div>
