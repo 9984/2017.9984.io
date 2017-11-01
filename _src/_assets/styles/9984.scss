@@ -41,6 +41,12 @@
     }
 }
 
+.section--videos {
+    .iframe-container {
+        border: .15rem solid $brand-01;
+    }
+}
+
 .section--venue {
     .location {
         margin-bottom: $spacer * 2;
