@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.6.1",
     "browser-sync": ">=2.10.0",
     "concurrent-transform": "^1.0.0",
     "critical": "^0.9.1",
@@ -46,7 +46,7 @@
     "gulp-header": "^1.8.9",
     "gulp-htmlmin": "^3.0.0",
     "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^3.3.0",
+    "gulp-imagemin": "^3.4.0",
     "gulp-include": "^2.0.2",
     "gulp-load-plugins": "^1.5.0",
     "gulp-rename": "^1.2.2",
@@ -60,10 +60,10 @@
     "gulp-util": "^3.0.6",
     "js-yaml": "^3.9.0",
     "request": "^2.81.0",
-    "stylelint": "^8.1.1",
+    "stylelint": "^8.2.0",
     "stylelint-config-bigchaindb": "^1.0.0",
     "stylelint-config-standard": "^17.0.0",
-    "uglify-es": "^3.0.28"
+    "uglify-es": "^3.1.6"
   },
   "engines": {
     "node": ">=7.0.0"
