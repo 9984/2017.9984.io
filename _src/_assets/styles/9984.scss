@@ -3,6 +3,7 @@
 @import 'fonts';
 @import 'typography';
 @import 'layout';
+@import 'media';
 @import 'sections';
 @import 'hero';
 @import 'header';
@@ -37,6 +38,12 @@
         p:not(.section__description) {
             margin-left: calc(100% / 3 + #{$spacer / 2});
         }
+    }
+}
+
+.section--videos {
+    .iframe-container {
+        border: .15rem solid $brand-01;
     }
 }
 

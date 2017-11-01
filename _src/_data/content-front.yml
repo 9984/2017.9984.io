@@ -42,6 +42,12 @@ speakers:
 # Heads up! Rest of the speakers section is dynamically created.
 # Content for each speaker can be edited in the respective .md file in _src/_speakers/
 
+# -----------------
+# Section: Videos
+# -----------------
+videos:
+    title: >
+        All talk videos
 
 # -----------------
 # Section: Location
