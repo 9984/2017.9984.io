@@ -15,12 +15,14 @@ talk_id: building-the-future-from-our-heads-not-our-hands
 type: keynote
 title: Building the future from our heads, not our hands
 time: tba
+youtube_id: xxxxxxxx
 ---
 
 The early days of the commercial Internet were chaotic. The people who were most successful at creating value from the turmoil, both technologists and businesspeople alike, were those who had clear visions of making a future from the crude building blocks available to them, like a child dumping a box of Legos on the floor and building a dinosaur. Domain names and web sites were those blocks. What are they today?
 ```
 
  - `talk_id`: the id of the talk. Used to reference the talk with a speaker.
+ - `youtube_id`: the id of the video on YouTube. If set, will embed the video within the talk box on a speaker's page.
  - `type`: the type of talk, e.g. *keynote*. Will be output above the talk on speakers page.
  - `title`: the full title of the talk.
  - `time`: the scheduled time of the talk.
