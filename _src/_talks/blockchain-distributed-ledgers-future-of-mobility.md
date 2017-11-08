@@ -1,6 +1,6 @@
 ---
 talk_id: blockchain-distributed-ledgers-future-of-mobility
-type: panel
+type: talk
 title: "Blockchain, Distributed Ledgers and the Future of Mobility"
 youtube_id: Bn-LcjsYgrs
 ---
