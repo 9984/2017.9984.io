@@ -2,6 +2,7 @@
 talk_id: future-nation-states
 type: keynote
 title: "The Future of Nation States"
+youtube_id: CPac_jd0pKc
 ---
 
 With the private sector setting the pace for technological transformation, governments are re-examining their role in the new global economy, searching for ways of harnessing the process of digital disruption. These are the reasons behind e-Residency – a transnational digital identity that anyone in the world can apply for to access a platform built on inclusion, legitimacy and transparency. 
