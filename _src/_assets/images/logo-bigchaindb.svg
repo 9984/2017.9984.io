@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 949 187">
-  <defs>
-     <style>
-     .green {
-       fill: #04c695;
-     }
-
-     .blue {
-       fill: #074354;
-     }
-    </style>
-  </defs>
   <title>Logo</title>
   <g id="db" fill="currentColor" class="green">
     <path class="cls-1" d="M857.51,185A91.49,91.49,0,1,1,949,93.5,91.6,91.6,0,0,1,857.51,185Zm0-173.68A82.18,82.18,0,1,0,939.7,93.5,82.28,82.28,0,0,0,857.51,11.32Z" />
