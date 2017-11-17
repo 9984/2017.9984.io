@@ -17,8 +17,7 @@ front_page: true
         <h2 class="hero__tagline">{{ site.description }}</h2>
         <p class="hero__intro">{{ content.hero.text }}</p>
 
-        <a class="button button--primary" href="#tickets" data-scroll>{{ content.hero.button }} <span class="button__sub">{{ content.hero.price }}</span></a>
-
+        <a class="button button--primary" href="#videos" data-scroll>{{ content.hero.button }}</a>
     </div>
 
     <aside class="hero__logos">
@@ -61,7 +60,7 @@ front_page: true
     </div>
 </section>
 
-<section class="section section--videos">
+<section class="section section--videos" id="videos">
     <div class="row">
         <h1 class="section__title">{{ content.videos.title }}</h1>
 
@@ -82,20 +81,6 @@ front_page: true
         <aside class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.979681552739!2d13.399275715820638!3d52.51570677981329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851d8da7e88fb%3A0x2ec750f8d979acef!2sESMT+Berlin!5e0!3m2!1sen!2sde!4v1504795463153" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
         </aside>
-    </div>
-</section>
-
-<section id="tickets" class="section section--tickets">
-    <div class="row">
-        <h1 class="section__title">{{ content.tickets.title }}</h1>
-
-        {{ content.tickets.text | markdownify }}
-
-        <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=35492781866&ref=etckt" frameborder="0" height="308" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6 ; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
-        <noscript>
-            <a class="button button--primary" href="https://www.eventbrite.com/e/9984-summit-blockchain-futures-for-developers-enterprises-society-tickets-35492781866">Get your ticket on Eventbrite</a>
-        </noscript>
-
     </div>
 </section>
 
