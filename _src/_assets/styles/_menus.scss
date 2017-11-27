@@ -73,7 +73,7 @@
 .menu--footer {
     margin-top: $spacer * 4;
 
-    .menu__link {
+    .menu__link {// stylelint-disable-line no-descending-specificity
         padding: $spacer / 4 $spacer * 2 $spacer / 4 0;
         opacity: .7;
 
