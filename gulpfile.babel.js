@@ -15,6 +15,7 @@ import request      from 'request'
 import uglifyjs     from 'uglify-es'
 import composer     from 'gulp-uglify/composer'
 const minify = composer(uglifyjs, console)
+const cp = require('child_process')
 
 // get all the configs: `pkg` and `site`
 import pkg from './package.json'
@@ -44,10 +45,10 @@ const SRC      = site.source + '/',
       DIST     = site.destination + '/'
 
 // deployment
-const S3BUCKET         = '2017.9984.io',
-      S3REGION         = 'eu-central-1',
-      S3BUCKET_BETA    = 'beta2017.9984.io',
-      S3REGION_BETA    = 'eu-central-1'
+const S3_BUCKET_LIVE   = '2017.9984.io',
+      S3_BUCKET_BETA    = 'beta2017.9984.io',
+      S3_OPTIONS_DEFAULT = '--delete --acl public-read',
+      S3_OPTIONS_CACHING = '--cache-control max-age=2592000,public'
 
 // SVG sprite
 const SPRITECONFIG = {
@@ -105,8 +106,7 @@ export const jekyll = (done) => {
         var jekyll_options = 'jekyll build --incremental --drafts --future'
     }
 
-    let spawn  = require('child_process').spawn,
-        jekyll = spawn('bundle', ['exec', jekyll_options], { stdio: 'inherit' })
+    const jekyll = cp.execFile('bundle', ['exec', jekyll_options], { stdio: 'inherit' })
 
     jekyll.on('error', (error) => onError() ).on('close', done)
 }
@@ -342,79 +342,19 @@ export default dev
 // gulp deploy --beta
 // gulp deploy --gamma
 //
-export const s3 = () => {
+export const s3 = (cb) => {
+    let S3_BUCKET_TARGET
 
-    // create publisher, define config
     if ($.util.env.live === true) {
-        var publisher = $.awspublish.create({
-            params: { 'Bucket': S3BUCKET },
-            'accessKeyId': process.env.AWS_ACCESS_KEY,
-            'secretAccessKey': process.env.AWS_SECRET_KEY,
-            'region': S3REGION
-        })
+        S3_BUCKET_TARGET = S3_BUCKET_LIVE
     } else if ($.util.env.beta === true) {
-        var publisher = $.awspublish.create({
-            params: { 'Bucket': S3BUCKET_BETA },
-            'accessKeyId': process.env.AWS_BETA_ACCESS_KEY,
-            'secretAccessKey': process.env.AWS_BETA_SECRET_KEY,
-            'region': S3REGION_BETA
-        })
+        S3_BUCKET_TARGET = S3_BUCKET_BETA
     } else {
         return
     }
 
-    return src(DIST + '**/*')
-        .pipe($.awspublishRouter({
-            cache: {
-                // cache for 5 minutes by default
-                cacheTime: 300
-            },
-            routes: {
-                // all static assets, cached & gzipped
-                '^assets/(?:.+)\\.(?:js|css|png|jpg|jpeg|gif|ico|svg|ttf|eot|woff|woff2)$': {
-                    cacheTime: 2592000, // cache for 1 month
-                    gzip: true
-                },
-
-                // every other asset, cached
-                '^assets/.+$': {
-                    cacheTime: 2592000  // cache for 1 month
-                },
-
-                // all html files, not cached & gzipped
-                '^.+\\.html': {
-                    cacheTime: 0,
-                    gzip: true
-                },
-
-                // all pdf files, not cached
-                '^.+\\.pdf': {
-                    cacheTime: 0
-                },
-
-                // font mime types
-                '\.ttf$': {
-                    key: '$&',
-                    headers: { 'Content-Type': 'application/x-font-ttf' }
-                },
-                '\.woff$': {
-                    key: '$&',
-                    headers: { 'Content-Type': 'application/x-font-woff' }
-                },
-                '\.woff2$': {
-                    key: '$&',
-                    headers: { 'Content-Type': 'application/x-font-woff2' }
-                },
-
-                // pass-through for anything that wasn't matched by routes above, to be uploaded with default options
-                "^.+$": "$&"
-            }
-        }))
-        .pipe(parallelize(publisher.publish(), 100)).on('error', onError)
-        .pipe(publisher.sync()) // delete files in bucket that are not in local folder
-        .pipe($.awspublish.reporter({
-            states: ['create', 'update', 'delete']
-        }))
+    cp.exec(`aws s3 sync ${DIST} s3://${S3_BUCKET_TARGET} --exclude "assets/*" ${S3_OPTIONS_DEFAULT}`, (err) => cb(err))
+    cp.exec(`aws s3 sync ${DIST} s3://${S3_BUCKET_TARGET} --exclude "*" --include "assets/*" ${S3_OPTIONS_DEFAULT} ${S3_OPTIONS_CACHING}`, (err) => cb(err))
 }
 
 
