@@ -41,7 +41,7 @@
     "gulp-clean-css": "^3.8.0",
     "gulp-cli": "^2.0.0",
     "gulp-concat": "^2.6.0",
-    "gulp-header": "^1.8.9",
+    "gulp-header": "^2.0.1",
     "gulp-htmlmin": "^4.0.0",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^4.0.0",
